@@ -1,121 +1,108 @@
-# Latest Release
+# StudioElf Bootswatch Theme Collection
 
-[6.1.6](https://github.com/oqtane/oqtane.theme.bootswatch/releases/tag/v6.1.6) was released on Sep 18, 2025.
+🎨 **Version:** [6.5.3.8](https://github.com/studioelf/studioelf.theme.bootswatch/releases)  
+🗓️ **Last Updated:** November 2025  
+⚙️ **Compatible with:** Oqtane Framework 6.2+
 
-# Oqtane Bootswatch Theme Collection
+---
 
-These themes are based on Bootswatch \- https://bootswatch.com/
+## Overview
 
-A custom theme is comprised of razor components \- some which inherit from ThemeBase \(theme components\) and ContainerBase \(container components\).
+The **StudioElf Bootswatch Theme Collection** is a fork and evolution of the original Oqtane Bootswatch themes — rebuilt to provide a clean, automated, and continuously updated set of themes powered by [Bootswatch](https://bootswatch.com/).
 
-Theme components are the structure and layout for your pages\. They include embedded theme controls such as Menu, Login, etc\.\.\. Theme components must contain Pane components which indicate locations where modules will be dynamically injected at runtime\.
+Each theme is dynamically generated and maintained through the `UpdateBootswatchThemes` tool, ensuring every release reflects the latest Bootswatch versions available on [cdnjs](https://cdnjs.com/libraries/bootswatch).
 
-Container components are containers for individual module instances\. They include embedded container controls such as ModuleActions, ModuleTitle, etc\.\.\. Container components must contain a ModuleInstance component which is where the module output will be dynamically rendered at runtime\.
+---
 
-Themes contain an implementation of the ITheme interface which provides metadata about the theme\.
+## ✨ What’s New in StudioElf
 
-Themes have static resources such as images or CSS files which will be located in the wwwroot folder with a subfolder name matching the theme name\.
+- 🔁 **Automated Theme Updates:**  
+  A new tool (`Tools/UpdateBootswatchThemes`) fetches the latest Bootswatch metadata and regenerates all `ThemeInfo.cs` files with correct integrity hashes and version numbers.
 
-These themes utilize inheritance so that the razor components for each individual theme all inherit from the Default theme\. This consolidates all of the HTML markup within a minimal number of components to simplify maintenance.
+- 🧱 **Automatic Theme Scaffolding:**  
+  When a new Bootswatch theme (e.g., “Brite”) is added, the tool automatically:
+  - Creates the required folder structure (`Containers` + `Themes`)
+  - Generates default Razor components
+  - Copies `default.css` → `<ThemeName>.css` in `wwwroot`
 
-A sample of what the various themes look like is shown below:
+- 🧩 **Version Integration:**  
+  The theme version now combines the Oqtane and Bootswatch versions (e.g., `6.5.3.8`), keeping both ecosystems in sync.
 
-### Cerulean
+- 🚫 **Ignore List Support:**  
+  You can exclude specific Bootswatch themes (e.g., “Cyborg”) from automatic updates.
 
-![Cerulean](Screenshots/Cerulean.png)
+---
+## 🧩 About Oqtane Themes
 
-### Cosmo
+A custom Oqtane theme is made up of **Razor components**, some of which inherit from:
 
-![Cosmo](Screenshots/Cosmo.png)
+- `ThemeBase` — defines page structure and layout (themes)
+- `ContainerBase` — defines module containers (containers)
 
-### Darkly
+### 🧱 Theme Components
+These provide the main layout and structure for your pages.  
+They include theme controls such as `Menu`, `Login`, and `Pane` placeholders for module injection.
 
-![Darkly](Screenshots/Darkly.png)
+### 📦 Container Components
+Containers wrap individual module instances and provide controls like `ModuleTitle` and `ModuleActions`.
 
-### Default
+### 🧩 ITheme Metadata
+Each theme implements `ITheme`, providing metadata such as name, version, and static resource paths.
 
-![Default](Screenshots/Default.png)
+---
 
-### Flatly
+## 🧱 Inheritance Structure
 
-![Flatly](Screenshots/Flatly.png)
+To simplify maintenance, all individual themes (e.g., *Minty*, *Cosmo*, *Flatly*) **inherit** from the shared `Default` theme.  
+This consolidates markup and CSS definitions into fewer files, reducing duplication and easing updates.
 
-### Journal
+---
 
-![Journal](Screenshots/Journal.png)
+## 🖼️ Theme Previews
 
-### Litera
+Below are some of the included Bootswatch styles:
 
-![Litera](Screenshots/Litera.png)
+| Theme | Preview |
+|-------|----------|
+| **Cerulean** | ![Cerulean](Screenshots/Cerulean.png) |
+| **Cosmo** | ![Cosmo](Screenshots/Cosmo.png) |
+| **Darkly** | ![Darkly](Screenshots/Darkly.png) |
+| **Flatly** | ![Flatly](Screenshots/Flatly.png) |
+| **Journal** | ![Journal](Screenshots/Journal.png) |
+| **Litera** | ![Litera](Screenshots/Litera.png) |
+| **Lux** | ![Lux](Screenshots/Lux.png) |
+| **Materia** | ![Materia](Screenshots/Materia.png) |
+| **Minty** | ![Minty](Screenshots/Minty.png) |
+| **Pulse** | ![Pulse](Screenshots/Pulse.png) |
+| **Quartz** | ![Quartz](Screenshots/Quartz.png) |
+| **Slate** | ![Slate](Screenshots/Slate.png) |
+| **Superhero** | ![Superhero](Screenshots/Superhero.png) |
+| **Vapor** | ![Vapor](Screenshots/Vapor.png) |
+| **Yeti** | ![Yeti](Screenshots/Yeti.png) |
+| **Zephyr** | ![Zephyr](Screenshots/Zephyr.png) |
 
-### Lumen
+---
 
-![Lumen](Screenshots/Lumen.png)
+## ⚙️ Updating Themes
 
-### Lux
+To refresh all themes to the latest Bootswatch version, run:
 
-![Lux](Screenshots/Lux.png)
+```bash
+dotnet run --project Tools/UpdateBootswatchThemes/UpdateBootswatchThemes.csproj
 
-### Materia
+This will:
+- Fetch the latest Bootswatch release info from cdnjs
+- Update all ThemeInfo.cs files
+- Ensure missing Razor and CSS scaffolding is created
+- Update the StudioElf.Theme.Bootswatch.nuspec version automatically
 
-![Materia](Screenshots/Materia.png)
+## Credits
 
-### Minty
+- **Forked from:** [Oqtane Bootswatch Theme Collection](https://github.com/oqtane/oqtane.theme.bootswatch)
+- **Maintained by:** [StudioElf](https://github.com/studioelf)
+- **Theme Sources:** [Bootswatch.com](https://bootswatch.com)
+- **Framework:** [Oqtane Framework](https://github.com/oqtane/oqtane.framework)
 
-![Minty](Screenshots/Minty.png)
+## License
 
-### Morph
-
-![Morph](Screenshots/Morph.png)
-
-### Pulse
-
-![Pulse](Screenshots/Pulse.png)
-
-### Quartz
-
-![Quartz](Screenshots/Quartz.png)
-
-### Sandstone
-
-![Sandstone](Screenshots/Sandstone.png)
-
-### Simplex
-
-![Simplex](Screenshots/Simplex.png)
-
-### Sketchy
-
-![Sketchy](Screenshots/Sketchy.png)
-
-### Slate
-
-![Slate](Screenshots/Slate.png)
-
-### Solar
-
-![Solar](Screenshots/Solar.png)
-
-### Spacelab
-
-![Spacelab](Screenshots/Spacelab.png)
-
-### Superhero
-
-![Superhero](Screenshots/Superhero.png)
-
-### United
-
-![United](Screenshots/United.png)
-
-### Vapor
-
-![Vapor](Screenshots/Vapor.png)
-
-### Yeti
-
-![Yeti](Screenshots/Yeti.png)
-
-### Zephyr
-
-![Zephyr](Screenshots/Zephyr.png)
+This project is licensed under the [MIT License](LICENSE).
