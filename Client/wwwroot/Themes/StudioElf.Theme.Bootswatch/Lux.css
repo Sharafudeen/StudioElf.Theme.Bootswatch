@@ -21,13 +21,13 @@ main {
 
 @media (min-width: 768px) {
     .content {
-        padding-top: 16rem;
+        padding-top: 9rem;
     }
 }
 
 @media (min-width: 1005px) {
     .content {
-        padding-top: 12rem;
+        padding-top: 9rem;
     }
 }
 

@@ -34,31 +34,47 @@
 }
 
 .controls {
-  z-index: 2000;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-right: 10px;
+    z-index: 2000;
+    /*padding-top: 15px;
+    padding-bottom: 15px;*/
+    margin-right: 10px;
+}
+
+.app-menu .nav-item {
+    font-size: 0.9rem;
+    /*padding-bottom: 0.5rem;*/
+    white-space: nowrap;
+    margin-right: .25rem !important;
+}
+
+.app-menu .nav-item a {
+    border-radius: 4px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    line-height: 2.5rem;
+    padding-left: 1rem;
 }
 
 @media (max-width: 768px) {
   .app-logo .img-fluid {
-    max-height: 75px;
+    max-height: 40px;
     padding: 0 5px 0 5px;
   }
 }
 
 .app-menu .nav-item {
   font-size: 0.9rem;
-  padding-bottom: 0.5rem;
+  /*padding-bottom: 0.5rem;*/
   white-space: nowrap;
 }
 
 .app-menu .nav-item a {
   border-radius: 4px;
-  height: 3rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
-  line-height: 3rem;
+  line-height: 2.5rem;
   padding-left: 1rem;
 }
 
@@ -149,7 +165,7 @@ main {
 }
 
 .app-logo .img-fluid {
-    max-height: 75px;
+    max-height: 40px;
     padding: 0 5px 0 5px;
 }
 
@@ -243,12 +259,21 @@ main {
 }
 
 @media (max-width: 767px) {
-  .controls {
+  /*.controls {
     height: auto;
     padding-left: 8px;
     padding-right: 8px;
     left: 0;
-  }
+  }*/
+
+    .controls {
+        height: 60px;
+        top: 0px;
+        padding-top: 10px;
+        position: fixed;
+        /*top: 0px;*/
+        width: 100%;
+    }
 
   .controls-group {
     display: flex;
