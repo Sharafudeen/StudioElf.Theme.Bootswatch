@@ -20,8 +20,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Client\bin\Release\net9.0\StudioElf.Theme.Bootswatch.Oqtane.dll" target="lib\net9.0" />
-    <file src="..\Client\bin\Release\net9.0\StudioElf.Theme.Bootswatch.Oqtane.pdb" target="lib\net9.0" />
+    <file src="..\Client\bin\Release\net10.0\StudioElf.Theme.Bootswatch.Oqtane.dll" target="lib\net10.0" />
+    <file src="..\Client\bin\Release\net10.0\StudioElf.Theme.Bootswatch.Oqtane.pdb" target="lib\net10.0" />
     <file src="..\Client\wwwroot\**\*.*" target="wwwroot" /> 
     <file src="icon.png" target="" />
   </files>
