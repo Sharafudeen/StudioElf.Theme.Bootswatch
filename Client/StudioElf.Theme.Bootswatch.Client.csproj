@@ -21,6 +21,42 @@
     <PackageReference Include="Oqtane.Client" Version="6.2.1" />
     <PackageReference Include="Oqtane.Shared" Version="6.2.1" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="wwwroot\Themes\AyroUI\assets\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\about\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\blog\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\coming-soon\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\header\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\portfolio\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\pricing\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\services\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\slider\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\team\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\team\team-02\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\images\testimonial\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\about\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\blogs\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\call-to-action\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\cards\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\clients\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\contact\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\error\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\features\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\footers\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\headers\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\navbars\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\portfolios\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\pricings\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\services\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\sign-in-up\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\sliders\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\teams\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\testimonials\.DS_Store" />
+    <None Include="wwwroot\Themes\AyroUI\assets\scss\videos\.DS_Store" />
+  </ItemGroup>
 
   <PropertyGroup>
     <!-- there may be other elements here -->
