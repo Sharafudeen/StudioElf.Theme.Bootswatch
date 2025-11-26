@@ -2,6 +2,21 @@
 @inherits ThemeBase
 @inject ISettingService SettingService
 
+@* <style>
+    .content{
+        padding: 0px !important;
+    }
+
+    .container-fluid {
+        padding: 0px !important;
+    }
+
+    .custom-row {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+</style> *@
+
 <main role="main" data-bs-theme="@_mode">
     <nav class="navbar navbar-dark bg-primary fixed-top">
         <Logo UseSiteNameAsFallback="true" /><Menu Orientation="Horizontal" />
@@ -17,7 +32,7 @@
             </div>
         </div>
     </nav>
-    <div class="content">
+    <div class="@_content">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -115,6 +130,7 @@
     private bool _register = true;
     private bool _search = true;
     private string _mode = "";
+    private string _content = "";
 
     protected override void OnParametersSet()
     {
@@ -124,6 +140,7 @@
             _register = bool.Parse(SettingService.GetSetting(PageState.Site.Settings, _namespace + ":Register", "true"));
             _search = bool.Parse(SettingService.GetSetting(PageState.Site.Settings, _namespace + ":Search", "true"));
             _mode = SettingService.GetSetting(PageState.Site.Settings, _namespace + ":Mode", "light");
+            _content = SettingService.GetSetting(PageState.Site.Settings, _namespace + ":ContentClass", "");
         }
         catch
         {

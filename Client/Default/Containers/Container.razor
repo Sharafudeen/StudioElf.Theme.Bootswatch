@@ -5,7 +5,7 @@
 <div class="@_classes">
     @if (_title && ModuleState.Title != "-")
     {
-        <div class="row px-4">
+        <div class="@(string.IsNullOrWhiteSpace(_container) ? "" : "row") px-4">
             <div class="d-flex flex-nowrap">
                 <ModuleActions /><h2><ModuleTitle /></h2>
             </div>
@@ -16,11 +16,18 @@
     {
         <ModuleActions />
     }
-    <div class="row px-4">
-        <div class="container-fluid">
-            <ModuleInstance />
+    @if (string.IsNullOrWhiteSpace(_container))
+    {
+        <ModuleInstance />
+    }
+    else
+    {
+        <div class="row px-4">
+            <div class="container-fluid">
+                <ModuleInstance />
+            </div>
         </div>
-    </div>
+    }
 </div>
 
 @code {
@@ -28,13 +35,16 @@
 
     private string _namespace = "StudioElf.Theme.Bootswatch";
     private bool _title = true;
-    private string _classes = "container-fluid";
+    private string _classes = "";
+    private string _container = "";
 
     protected override void OnParametersSet()
     {
         try
         {
+            _container = SettingService.GetSetting(ModuleState.Settings, _namespace + ":ContainerClass", "");
             _title = bool.Parse(SettingService.GetSetting(ModuleState.Settings, _namespace + ":Title", "true"));
+            _classes += " " + _container;
             _classes += " " + SettingService.GetSetting(ModuleState.Settings, _namespace + ":Background", "");
             _classes += " " + SettingService.GetSetting(ModuleState.Settings, _namespace + ":Text", "");
             _classes += " " + SettingService.GetSetting(ModuleState.Settings, _namespace + ":Border", "");

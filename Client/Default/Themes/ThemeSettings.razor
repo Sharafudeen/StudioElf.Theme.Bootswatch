@@ -43,6 +43,15 @@
             </select>
         </div>
     </div>
+    <div class="row mb-1 align-items-center">
+        <Label Class="col-sm-3" For="content" ResourceKey="Content" ResourceType="@_content" HelpText="Specify the Bootstrap theme content class">Content Class:</Label>
+        <div class="col-sm-9">
+            <select id="content" class="form-select" @bind="@_content">
+                <option value="">@SharedLocalizer["None"]</option>
+                <option value="content">@SharedLocalizer["Content"]</option>
+            </select>
+        </div>
+    </div>
 </div>
 
 @code {
@@ -53,6 +62,7 @@
     private string _register = "true";
     private string _search = "true";
     private string _mode = "";
+    private string _content = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -73,6 +83,7 @@
         _register = SettingService.GetSetting(PageState.Site.Settings, _namespace + ":Register", "true");
         _search = SettingService.GetSetting(PageState.Site.Settings, _namespace + ":Search", "true");
         _mode = SettingService.GetSetting(PageState.Site.Settings, _namespace + ":Mode", "light");
+        _content = SettingService.GetSetting(PageState.Site.Settings, _namespace + ":ContentClass", "");
         await Task.Yield();
     }
 
@@ -85,6 +96,7 @@
             settings = SettingService.SetSetting(settings, _namespace + ":Register", _register);
             settings = SettingService.SetSetting(settings, _namespace + ":Search", _search);
             settings = SettingService.SetSetting(settings, _namespace + ":Mode", _mode);
+            settings = SettingService.SetSetting(settings, _namespace + ":ContentClass", _content);
             await SettingService.UpdateSiteSettingsAsync(settings, PageState.Site.SiteId);
         }
         catch (Exception ex)
