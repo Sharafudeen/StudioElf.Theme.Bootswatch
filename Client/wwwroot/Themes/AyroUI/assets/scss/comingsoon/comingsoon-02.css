@@ -17,7 +17,7 @@
 
 /*===== COMING SOON TWO =====*/
 .coming-soon-two {
-  background-color: var(--bs-light-2);
+  /*background-color: var(--bs-light-2);*/
 }
 .coming-soon-two .coming-soon-content {
   position: relative;

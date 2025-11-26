@@ -16,7 +16,7 @@
 /*===== NAVBAR SIX =====*/
 
 .navbar-six {
-  background-color: var(--bs-light-2);
+  /*background-color: var(--bs-light-2);*/
 
   @media #{$md, $xs} {
     padding: 10px 0;
@@ -63,7 +63,7 @@
       top: 116%;
       left: 0;
       width: 100%;
-      background-color: var(--bs-light-2);
+      /*background-color: var(--bs-light-2);*/
       z-index: 8;
       padding: 10px 16px;
     }

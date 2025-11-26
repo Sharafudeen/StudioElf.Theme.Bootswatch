@@ -2,7 +2,7 @@
 .testimonial-one {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--bs-light-2);
+  /*background-color: var(--bs-light-2);*/
   /* Section Title Seven */
 }
 .testimonial-one .section-title-seven {
@@ -24,12 +24,17 @@
   }
 }
 .testimonial-one .section-title-seven span {
-  text-transform: uppercase;
-  color: var(--bs-primary);
-  display: inline-block;
-  margin-bottom: 8px;
-  font-size: 15px;
-  font-weight: 600;
+    text-transform: uppercase;
+    /*color: var(--bs-primary);
+  margin-bottom: 8px;*/
+    color: var(--bs-primary);
+    border: 2px solid var(--bs-primary);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
 }
 .testimonial-one .section-title-seven h5 {
   font-weight: 600;

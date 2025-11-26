@@ -54,7 +54,8 @@
 }
 .blog-style-one .blog-content .blog-title a {
   font-weight: 600;
-  color: var(--bs-black);
+  /*color: var(--bs-black);*/
+    color: var(--bs-dark-3);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;

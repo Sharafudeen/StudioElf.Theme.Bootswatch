@@ -54,7 +54,8 @@
 
       & a {
         font-weight: 600;
-        color: var(--bs-black);
+        /*color: var(--bs-black);*/
+        color: var(--bs-dark-3);
         @include transition(0.3s);
         line-height: 30px;
 

@@ -17,7 +17,7 @@
 
 /* ========== contact-02 css =========== */
 .contact-area-two {
-  background-color: var(--bs-light-2);
+  /*background-color: var(--bs-light-2);*/
   padding-top: 90px;
   padding-bottom: 100px;
 }
@@ -44,7 +44,7 @@
 .contact-area-two .contact-two .contact-title {
   font-size: 20px;
   font-weight: 600;
-  color: var(--bs-black);
+  /*color: var(--bs-black);*/
 }
 .contact-area-two .contact-two .text {
   font-size: 16px;
@@ -62,7 +62,7 @@
 }
 .contact-area-two .contact-two .contact-info li i {
   margin-right: 5px;
-  color: var(--bs-black);
+  /*color: var(--bs-black);*/
 }
 .contact-area-two .form-input {
   margin-top: 15px;

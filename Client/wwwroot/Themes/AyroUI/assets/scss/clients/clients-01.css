@@ -20,13 +20,16 @@
   }
 }
 .client-logo-area .section-title-two span {
-  text-transform: capitalize;
-  color: var(--bs-white);
-  background: var(--bs-primary);
-  display: inline-block;
-  margin-bottom: 10px;
-  padding: 5px 15px;
-  border-radius: 4px;
+    text-transform: capitalize;
+    /*color: var(--bs-white);
+      background: var(--bs-primary);
+      border-radius: 4px;*/
+    color: var(--bs-primary);
+    border: 2px solid var(--bs-primary);
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px 15px;
 }
 .client-logo-area .section-title-two h2 {
   margin-bottom: 15px;
