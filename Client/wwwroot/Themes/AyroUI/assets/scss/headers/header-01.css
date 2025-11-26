@@ -1,15 +1,15 @@
 /* ===== Buttons Css ===== */
 .header-one .header-content-area .primary-btn-outline {
-  border-color: var(--primary);
-  color: var(--primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 .header-one .header-content-area .active.primary-btn-outline, .header-one .header-content-area .primary-btn-outline:hover, .header-one .header-content-area .primary-btn-outline:focus {
-  background: var(--primary-dark);
-  color: var(--white);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
 }
 .header-one .header-content-area .deactive.primary-btn-outline {
-  color: var(--dark-3);
-  border-color: var(--gray-4);
+  color: var(--bs-dark-3);
+  border-color: var(--bs-gray-4);
   pointer-events: none;
 }
 
@@ -18,7 +18,7 @@
   position: relative;
 }
 .header-one .header-content-area {
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
   position: relative;
   padding: 130px 0;
 }
@@ -43,14 +43,14 @@
   }
 }
 .header-one .header-content-area .primary-btn-outline {
-  border-color: var(--white);
-  background-color: var(--white);
-  color: var(--primary);
+  border-color: var(--bs-white);
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
 }
 .header-one .header-content-area .primary-btn-outline:hover {
   background-color: transparent;
-  border-color: var(--white);
-  color: var(--white);
+  border-color: var(--bs-white);
+  color: var(--bs-white);
 }
 .header-one .header-wrapper {
   position: relative;
@@ -61,11 +61,11 @@
   z-index: 5;
 }
 .header-one .header-title {
-  color: var(--white);
+  color: var(--bs-white);
   font-weight: 800;
 }
 .header-one .text-lg {
-  color: var(--white);
+  color: var(--bs-white);
   font-weight: 300;
   margin-top: 16px;
 }

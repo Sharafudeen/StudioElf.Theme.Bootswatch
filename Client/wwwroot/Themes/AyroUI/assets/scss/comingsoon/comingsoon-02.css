@@ -1,23 +1,23 @@
 /* ===== Buttons Css ===== */
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter .coming-soon-btn .primary-btn {
-  background: var(--primary);
-  color: var(--white);
-  box-shadow: var(--shadow-2);
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-2);
 }
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter .coming-soon-btn .active.primary-btn, .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter .coming-soon-btn .primary-btn:hover, .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter .coming-soon-btn .primary-btn:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-  box-shadow: var(--shadow-4);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-4);
 }
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter .coming-soon-btn .deactive.primary-btn {
-  background: var(--gray-4);
-  color: var(--dark-3);
+  background: var(--bs-gray-4);
+  color: var(--bs-dark-3);
   pointer-events: none;
 }
 
 /*===== COMING SOON TWO =====*/
 .coming-soon-two {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
 }
 .coming-soon-two .coming-soon-content {
   position: relative;
@@ -92,9 +92,9 @@
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper {
   max-width: 730px;
   margin: 0 auto;
-  border: 1px solid var(--light-3);
+  border: 1px solid var(--bs-light-3);
   border-radius: 16px;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   padding: 50px 140px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.068);
 }
@@ -106,7 +106,7 @@
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-title {
   font-size: 40px;
   line-height: 52px;
-  color: var(--black);
+  color: var(--bs-black);
   margin: 16px;
 }
 @media (max-width: 767px) {
@@ -124,7 +124,7 @@
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .text {
   font-size: 18px;
   line-height: 30px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   margin-top: 8px;
   font-weight: 500;
 }
@@ -151,7 +151,7 @@
   top: 12px;
   left: 20px;
   font-size: 24px;
-  color: var(--primary);
+  color: var(--bs-primary);
 }
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter input {
   width: 100%;
@@ -159,10 +159,10 @@
   padding-left: 60px;
   padding-right: 160px;
   border-radius: 50px;
-  border: 2px solid var(--gray-3);
+  border: 2px solid var(--bs-gray-3);
   font-size: 16px;
   font-weight: 600;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 @media (max-width: 767px) {
   .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter input {
@@ -170,7 +170,7 @@
   }
 }
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter input:focus {
-  border-color: var(--primary);
+  border-color: var(--bs-primary);
 }
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .coming-soon-newsletter .coming-soon-btn {
   position: absolute;
@@ -204,7 +204,7 @@
 }
 .coming-soon-two .coming-soon-content .coming-soon-content-wrapper .subscribe-text {
   font-size: 14px;
-  color: var(--primary);
+  color: var(--bs-primary);
   line-height: 24px;
   margin-top: 8px;
 }

@@ -2,7 +2,7 @@
 .testimonial-two {
   padding-top: 100px;
   padding-bottom: 120px;
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
   /* Section Title Seven */
 }
 .testimonial-two .testimonial-two-active {
@@ -28,7 +28,7 @@
 }
 .testimonial-two .section-title-seven span {
   text-transform: uppercase;
-  color: var(--primary);
+  color: var(--bs-primary);
   display: inline-block;
   margin-bottom: 8px;
   font-size: 15px;
@@ -37,7 +37,7 @@
 .testimonial-two .section-title-seven h5 {
   font-weight: 600;
   margin-bottom: 7px;
-  color: var(--primary);
+  color: var(--bs-primary);
   text-transform: uppercase;
   font-size: 1rem;
 }
@@ -63,7 +63,7 @@
   bottom: 0;
   height: 3px;
   width: 50px;
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial-two .section-title-seven h2 {
@@ -78,13 +78,13 @@
   }
 }
 .testimonial-two .section-title-seven p {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .testimonial-two .single-testimonial {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
   padding: 30px;
   border-radius: 8px;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   margin-top: 30px;
 }
 .testimonial-two .single-testimonial .testimonial-author .author-image img {
@@ -104,12 +104,12 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
-  color: var(--black);
+  color: var(--bs-black);
 }
 .testimonial-two .single-testimonial .testimonial-author .author-name .sub-title {
   font-size: 14px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .testimonial-two .single-testimonial .testimonial-author .author-name .ratings li {
   display: inline-block;
@@ -120,7 +120,7 @@
   margin-top: 25px;
 }
 .testimonial-two .single-testimonial .testimonial-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .testimonial-two .testimonial-two-wrapper {
   position: relative;
@@ -140,7 +140,7 @@
   width: 10px;
   height: 10px;
   border-radius: 8px;
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
   opacity: 0.3;
   border: 0;
   margin: 0 3px;

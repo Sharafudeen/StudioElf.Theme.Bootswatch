@@ -3,7 +3,7 @@
 ===========================*/
 .services-one {
   position: relative;
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -14,7 +14,7 @@
   font-size: 45px;
   font-weight: 600;
   line-height: 55px;
-  color: var(--black);
+  color: var(--bs-black);
   margin-bottom: 16px;
 }
 @media (max-width: 767px) {
@@ -24,7 +24,7 @@
   }
 }
 .services-one .section-title p {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .services-one .services-content {
   margin-top: 40px;
@@ -36,8 +36,8 @@
   line-height: 80px;
   text-align: center;
   border-radius: 12px;
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
   font-size: 35px;
   float: left;
   margin-right: 20px;
@@ -48,8 +48,8 @@
   transition: all 0.3s ease-out 0s;
 }
 .services-one .services-content:hover .services-icon {
-  background-color: var(--primary-dark);
-  color: var(--white);
+  background-color: var(--bs-primary-dark);
+  color: var(--bs-white);
 }
 .services-one .services-content .media-body {
   padding-left: 100px;
@@ -74,7 +74,7 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
-  color: var(--black);
+  color: var(--bs-black);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .services-one .services-content .media-body .services-title {
@@ -82,7 +82,7 @@
   }
 }
 .services-one .services-content .media-body .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   margin-top: 8px;
 }
 .services-one .services-image {

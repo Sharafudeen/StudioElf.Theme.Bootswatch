@@ -3,7 +3,7 @@
 ===========================*/
 .services-two {
   position: relative;
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
   padding: 100px 0;
   /* Section Title Six */
 }
@@ -30,7 +30,7 @@
   font-weight: 600;
   display: inline-block;
   margin-bottom: 20px;
-  color: var(--primary);
+  color: var(--bs-primary);
   text-transform: capitalize;
   position: relative;
   line-height: 14px;
@@ -55,7 +55,7 @@
   transform: translateY(-50%);
   height: 2px;
   width: 15px;
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
   border-radius: 8px;
 }
 .services-two .section-title-six h3::after {
@@ -66,7 +66,7 @@
   transform: translateY(-50%);
   height: 2px;
   width: 15px;
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
   border-radius: 8px;
 }
 .services-two .section-title-six h2 {
@@ -85,13 +85,13 @@
   }
 }
 .services-two .section-title-six p {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .services-two .single-service {
   padding: 35px;
   border-radius: 8px;
-  box-shadow: var(--shadow-2);
-  background-color: var(--white);
+  box-shadow: var(--bs-shadow-2);
+  background-color: var(--bs-white);
   margin-top: 30px;
   position: relative;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -133,7 +133,7 @@
   right: 0;
 }
 .services-two .single-service:hover {
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--bs-shadow-4);
 }
 .services-two .single-service .serial {
   font-size: 50px;
@@ -149,8 +149,8 @@
   width: 65px;
   line-height: 65px;
   border-radius: 8px;
-  color: var(--white);
-  background-color: var(--primary);
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
   text-align: center;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -163,8 +163,8 @@
   background-repeat: no-repeat;
 }
 .services-two .single-service:hover .service-icon {
-  background-color: var(--primary);
-  box-shadow: var(--shadow-4);
+  background-color: var(--bs-primary);
+  box-shadow: var(--bs-shadow-4);
 }
 .services-two .single-service h3 {
   font-size: 22px;
@@ -173,7 +173,7 @@
   margin-top: 30px;
 }
 .services-two .single-service a {
-  color: var(--primary);
+  color: var(--bs-primary);
   margin-top: 40px;
   display: inline-block;
   font-weight: 500;

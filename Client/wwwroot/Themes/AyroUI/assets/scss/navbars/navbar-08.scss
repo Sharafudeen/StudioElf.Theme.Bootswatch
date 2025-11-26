@@ -16,7 +16,7 @@
 
 .navbar-eight {
   .inner-header {
-    background-color: var(--light-2);
+    background-color: var(--bs-light-2);
     padding: 0 20px;
     border-radius: 10px;
     position: relative;
@@ -47,7 +47,7 @@
     & .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: var(--black);
+      background-color: var(--bs-black);
       margin: 5px 0;
       display: block;
       position: relative;
@@ -79,10 +79,10 @@
       top: 123%;
       left: 0;
       width: 100%;
-      background-color: var(--light-2);
+      background-color: var(--bs-light-2);
       z-index: 8;
       padding: 10px 16px;
-      border-top: 2px solid var(--gray-3);
+      border-top: 2px solid var(--bs-gray-3);
     }
   }
 
@@ -103,7 +103,7 @@
         display: flex;
         align-items: center;
         padding: 32px 0;
-        color: var(--dark-2);
+        color: var(--bs-dark-2);
         text-transform: capitalize;
         position: relative;
         border-radius: 5px;
@@ -117,7 +117,7 @@
           bottom: 0;
           height: 3px;
           width: 0%;
-          background-color: var(--primary);
+          background-color: var(--bs-primary);
           @include transition(0.3s);
 
           @media #{$md,$xs} {
@@ -133,7 +133,7 @@
         }
 
         &.active {
-          color: var(--primary);
+          color: var(--bs-primary);
 
           &::before {
             width: 100%;
@@ -149,7 +149,7 @@
 
       &:hover {
         & > a {
-          color: var(--primary);
+          color: var(--bs-primary);
         }
 
         & a:before {
@@ -167,7 +167,7 @@
           font-size: 16px;
           background: none;
           border: 0;
-          color: var(--black);
+          color: var(--bs-black);
         }
       }
 
@@ -176,7 +176,7 @@
         left: 0;
         top: 100%;
         width: 260px;
-        background-color: var(--white);
+        background-color: var(--bs-white);
         border-radius: 5px;
         opacity: 0;
         visibility: hidden;
@@ -222,7 +222,7 @@
           position: relative;
 
           & .sub-nav-toggler {
-            color: var(--black);
+            color: var(--bs-black);
             @include transition(0.3s);
           }
 
@@ -232,7 +232,7 @@
             justify-content: space-between;
             padding: 10px 20px;
             position: relative;
-            color: var(--dark-2);
+            color: var(--bs-dark-2);
             font-size: 15px;
             border-radius: 0;
             margin: 0 0;
@@ -242,7 +242,7 @@
             @include transition(0.3s);
 
             & .sub-nav-toggler {
-              color: var(--black);
+              color: var(--bs-black);
             }
 
             & i {
@@ -298,12 +298,12 @@
             }
 
             & .sub-nav-toggler {
-              color: var(--white);
+              color: var(--bs-white);
             }
 
             & > a {
-              background: var(--primary);
-              color: var(--white);
+              background: var(--bs-primary);
+              color: var(--bs-white);
 
               &::before {
                 display: none;
@@ -336,8 +336,8 @@
       letter-spacing: 0;
 
       &.primary-btn {
-        background-color: var(--primary);
-        color: var(--white);
+        background-color: var(--bs-primary);
+        color: var(--bs-white);
         border-radius: 5px;
         padding: 16px 30px;
 
@@ -350,8 +350,8 @@
         }
 
         &:hover {
-          background-color: var(--black);
-          color: var(--white);
+          background-color: var(--bs-black);
+          color: var(--bs-white);
         }
       }
     }

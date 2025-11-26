@@ -9,7 +9,7 @@
   & .title {
     font-size: 36px;
     line-height: 45px;
-    color: var(--dark-3);
+    color: var(--bs-dark-3);
 
     @media #{$xs} {
       font-size: 24px;
@@ -46,73 +46,73 @@
   }
 
   &.primary-label {
-    background: var(--primary);
-    color: var(--white);
+    background: var(--bs-primary);
+    color: var(--bs-white);
   }
 
   &.primary-label-outline {
-    color: var(--primary);
-    border-color: var(--primary);
+    color: var(--bs-primary);
+    border-color: var(--bs-primary);
   }
 
   &.success-label {
-    background: var(--success);
-    color: var(--white);
+    background: var(--bs-success);
+    color: var(--bs-white);
   }
 
   &.success-label-outline {
-    color: var(--success);
-    border-color: var(--success);
+    color: var(--bs-success);
+    border-color: var(--bs-success);
   }
 
   &.info-label {
-    background: var(--info);
-    color: var(--white);
+    background: var(--bs-info);
+    color: var(--bs-white);
   }
 
   &.info-label-outline {
-    color: var(--info);
-    border-color: var(--info);
+    color: var(--bs-info);
+    border-color: var(--bs-info);
   }
 
   &.caution-label {
-    background: var(--caution);
-    color: var(--white);
+    background: var(--bs-caution);
+    color: var(--bs-white);
   }
 
   &.caution-label-outline {
-    color: var(--caution);
-    border-color: var(--caution);
+    color: var(--bs-caution);
+    border-color: var(--bs-caution);
   }
 
   &.error-label {
-    background: var(--error);
-    color: var(--white);
+    background: var(--bs-error);
+    color: var(--bs-white);
   }
 
   &.error-label-outline {
-    color: var(--error);
-    border-color: var(--error);
+    color: var(--bs-error);
+    border-color: var(--bs-error);
   }
 
   &.accent-label {
-    background: var(--accent);
-    color: var(--white);
+    background: var(--bs-accent);
+    color: var(--bs-white);
   }
 
   &.accent-label-outline {
-    color: var(--accent);
-    border-color: var(--accent);
+    color: var(--bs-accent);
+    border-color: var(--bs-accent);
   }
 
   &.secondary-label {
-    background: var(--secondary);
-    color: var(--white);
+    background: var(--bs-secondary);
+    color: var(--bs-white);
   }
 
   &.secondary-label-outline {
-    color: var(--secondary);
-    border-color: var(--secondary);
+    color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
   }
 }
 
@@ -121,7 +121,7 @@
   padding: 32px;
   padding-left: 0;
   border-radius: 4px;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--bs-shadow-2);
   position: relative;
   overflow: hidden;
 
@@ -159,12 +159,12 @@
 
       &.dark {
         i {
-          color: var(--black);
+          color: var(--bs-black);
         }
       }
 
       i {
-        color: var(--white);
+        color: var(--bs-white);
         font-weight: 700;
       }
     }
@@ -186,263 +186,263 @@
       margin-bottom: 8px;
     }
     p {
-      color: var(--black);
+      color: var(--bs-black);
       opacity: 0.88;
     }
   }
 
   // alert-primary-light
   &.alert-primary-light {
-    background: var(--primary-light);
+    background: var(--bs-primary-light);
 
     &::before {
-      background: var(--primary);
+      background: var(--bs-primary);
     }
     .alert-icon {
-      color: var(--primary);
+      color: var(--bs-primary);
     }
   }
 
   // alert-primary
   &.alert-primary {
-    background: var(--primary);
+    background: var(--bs-primary);
 
     &::before {
-      background: var(--primary-dark);
+      background: var(--bs-primary-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-accent-light
   &.alert-accent-light {
-    background: var(--accent-light);
+    background: var(--bs-accent-light);
 
     &::before {
-      background: var(--accent);
+      background: var(--bs-accent);
     }
     .alert-icon {
-      color: var(--accent);
+      color: var(--bs-accent);
     }
   }
 
   // alert-accent
   &.alert-accent {
-    background: var(--accent);
+    background: var(--bs-accent);
 
     &::before {
-      background: var(--accent-dark);
+      background: var(--bs-accent-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-secondary-light
   &.alert-secondary-light {
-    background: var(--secondary-light);
+    background: var(--bs-secondary-light);
 
     &::before {
-      background: var(--secondary);
+      background: var(--bs-secondary);
     }
     .alert-icon {
-      color: var(--secondary);
+      color: var(--bs-secondary);
     }
   }
 
   // alert-secondary
   &.alert-secondary {
-    background: var(--secondary);
+    background: var(--bs-secondary);
 
     &::before {
-      background: var(--secondary-dark);
+      background: var(--bs-secondary-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-success-light
   &.alert-success-light {
-    background: var(--success-light);
+    background: var(--bs-success-light);
 
     &::before {
-      background: var(--success);
+      background: var(--bs-success);
     }
     .alert-icon {
-      color: var(--success);
+      color: var(--bs-success);
     }
   }
 
   // alert-success
   &.alert-success {
-    background: var(--success);
+    background: var(--bs-success);
 
     &::before {
-      background: var(--success-dark);
+      background: var(--bs-success-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-info-light
   &.alert-info-light {
-    background: var(--info-light);
+    background: var(--bs-info-light);
 
     &::before {
-      background: var(--info);
+      background: var(--bs-info);
     }
     .alert-icon {
-      color: var(--info);
+      color: var(--bs-info);
     }
   }
 
   // alert-info
   &.alert-info {
-    background: var(--info);
+    background: var(--bs-info);
 
     &::before {
-      background: var(--info-dark);
+      background: var(--bs-info-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-caution-light
   &.alert-caution-light {
-    background: var(--caution-light);
+    background: var(--bs-caution-light);
 
     &::before {
-      background: var(--caution);
+      background: var(--bs-caution);
     }
     .alert-icon {
-      color: var(--caution);
+      color: var(--bs-caution);
     }
   }
 
   // alert-caution
   &.alert-caution {
-    background: var(--caution);
+    background: var(--bs-caution);
 
     &::before {
-      background: var(--caution-dark);
+      background: var(--bs-caution-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-error-light
   &.alert-error-light {
-    background: var(--error-light);
+    background: var(--bs-error-light);
 
     &::before {
-      background: var(--error);
+      background: var(--bs-error);
     }
     .alert-icon {
-      color: var(--error);
+      color: var(--bs-error);
     }
   }
 
   // alert-error
   &.alert-error {
-    background: var(--error);
+    background: var(--bs-error);
 
     &::before {
-      background: var(--error-dark);
+      background: var(--bs-error-dark);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
 
   // alert-dark-light
   &.alert-dark-light {
-    background: var(--light-3);
+    background: var(--bs-light-3);
 
     &::before {
-      background: var(--dark-1);
+      background: var(--bs-dark-1);
     }
     .alert-icon {
-      color: var(--dark);
+      color: var(--bs-dark);
     }
   }
 
   // alert-dark
   &.alert-dark {
-    background: var(--dark-3);
+    background: var(--bs-dark-3);
 
     &::before {
-      background: var(--dark-1);
+      background: var(--bs-dark-1);
     }
     .alert-icon {
-      color: var(--white);
+      color: var(--bs-white);
     }
     .alert-message {
       h5 {
-        color: var(--white);
+        color: var(--bs-white);
       }
       p {
-        color: var(--white);
+        color: var(--bs-white);
       }
     }
   }
@@ -497,7 +497,7 @@
     height: 28px;
     border-radius: 50%;
     overflow: hidden;
-    color: var(--white);
+    color: var(--bs-white);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -519,10 +519,10 @@
     .inactive-icon {
       display: none;
       background: #e0e0e0;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
     }
     .active-icon {
-      background: var(--primary);
+      background: var(--bs-primary);
     }
   }
 
@@ -581,7 +581,7 @@
     display: none;
     padding-left: 36px;
     padding-right: 6px;
-    color: var(--dark-3);
+    color: var(--bs-dark-3);
   }
 
   .slide-text .text {
@@ -594,7 +594,7 @@
   .switch-body .slide-text .active {
     padding-right: 36px;
     padding-left: 6px;
-    color: var(--primary);
+    color: var(--bs-primary);
   }
 
   .slide {
@@ -602,7 +602,7 @@
     height: 28px;
     border-radius: 50%;
     overflow: hidden;
-    color: var(--white);
+    color: var(--bs-white);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -624,10 +624,10 @@
     .inactive-icon {
       display: none;
       background: #e0e0e0;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
     }
     .active-icon {
-      background: var(--primary);
+      background: var(--bs-primary);
     }
   }
 
@@ -651,7 +651,7 @@
 .switch-btn-secondary {
   .slide {
     .active-icon {
-      background: var(--secondary);
+      background: var(--bs-secondary);
     }
   }
 }
@@ -659,12 +659,12 @@
 // ======
 .switch-btn-text-secondary {
   .switch-body .slide-text .active {
-    color: var(--secondary);
+    color: var(--bs-secondary);
   }
 
   .slide {
     .active-icon {
-      background: var(--secondary);
+      background: var(--bs-secondary);
     }
   }
 }
@@ -673,7 +673,7 @@
 .switch-btn-success {
   .slide {
     .active-icon {
-      background: var(--success);
+      background: var(--bs-success);
     }
   }
 }
@@ -681,12 +681,12 @@
 // ======
 .switch-btn-text-success {
   .switch-body .slide-text .active {
-    color: var(--success);
+    color: var(--bs-success);
   }
 
   .slide {
     .active-icon {
-      background: var(--success);
+      background: var(--bs-success);
     }
   }
 }
@@ -695,7 +695,7 @@
 .switch-btn-error {
   .slide {
     .active-icon {
-      background: var(--error);
+      background: var(--bs-error);
     }
   }
 }
@@ -703,12 +703,12 @@
 // ======
 .switch-btn-text-error {
   .switch-body .slide-text .active {
-    color: var(--error);
+    color: var(--bs-error);
   }
 
   .slide {
     .active-icon {
-      background: var(--error);
+      background: var(--bs-error);
     }
   }
 }

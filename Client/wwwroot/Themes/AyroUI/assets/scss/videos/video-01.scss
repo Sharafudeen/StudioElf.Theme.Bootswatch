@@ -4,25 +4,25 @@
 /*===== VIDEO ONE =====*/
 
 .video-one {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
   padding-top: 120px;
   padding-bottom: 100px;
 
   .video-title {
     & h5 {
       font-weight: 600;
-      color: var(--primary);
+      color: var(--bs-primary);
     }
 
     & h2 {
       font-weight: 700;
-      color: var(--black);
+      color: var(--bs-black);
       margin-top: 10px;
     }
 
     & .text-lg {
       margin-top: 24px;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
     }
   }
 
@@ -42,8 +42,8 @@
       line-height: 88px;
       text-align: center;
       border-radius: 50%;
-      background-color: var(--primary);
-      color: var(--white);
+      background-color: var(--bs-primary);
+      color: var(--bs-white);
       font-size: 30px;
       position: absolute;
       top: 50%;
@@ -60,8 +60,8 @@
       }
 
       &:hover {
-        background-color: var(--white);
-        color: var(--primary);
+        background-color: var(--bs-white);
+        color: var(--bs-primary);
       }
     }
   }

@@ -5,7 +5,7 @@
 /*===== COMING SOON TWO =====*/
 
 .coming-soon-two {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
 
   & .coming-soon-content {
     position: relative;
@@ -66,9 +66,9 @@
     & .coming-soon-content-wrapper {
       max-width: 730px;
       margin: 0 auto;
-      border: 1px solid var(--light-3);
+      border: 1px solid var(--bs-light-3);
       border-radius: 16px;
-      background-color: var(--white);
+      background-color: var(--bs-white);
       padding: 50px 140px;
       @include box-shadow(0px 0px 30px rgba(0, 0, 0, 0.068));
 
@@ -79,7 +79,7 @@
       & .coming-soon-title {
         font-size: 40px;
         line-height: 52px;
-        color: var(--black);
+        color: var(--bs-black);
         margin: 16px;
 
         @media #{$xs} {
@@ -96,7 +96,7 @@
       & .text {
         font-size: 18px;
         line-height: 30px;
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
         margin-top: 8px;
         font-weight: 500;
 
@@ -122,7 +122,7 @@
           top: 12px;
           left: 20px;
           font-size: 24px;
-          color: var(--primary);
+          color: var(--bs-primary);
         }
 
         & input {
@@ -131,17 +131,17 @@
           padding-left: 60px;
           padding-right: 160px;
           border-radius: 50px;
-          border: 2px solid var(--gray-3);
+          border: 2px solid var(--bs-gray-3);
           font-size: 16px;
           font-weight: 600;
-          color: var(--dark-3);
+          color: var(--bs-dark-3);
 
           @media #{$xs} {
             padding-right: 30px;
           }
 
           &:focus {
-            border-color: var(--primary);
+            border-color: var(--bs-primary);
           }
         }
 
@@ -177,7 +177,7 @@
 
       & .subscribe-text {
         font-size: 14px;
-        color: var(--primary);
+        color: var(--bs-primary);
         line-height: 24px;
         margin-top: 8px;
       }

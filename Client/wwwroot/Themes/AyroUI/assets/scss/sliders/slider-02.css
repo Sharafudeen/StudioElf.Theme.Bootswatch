@@ -1,37 +1,37 @@
 /* ===== Buttons Css ===== */
 .slider-area.slider-two .slider-content .slider-btn li .primary-btn {
-  background: var(--primary);
-  color: var(--white);
-  box-shadow: var(--shadow-2);
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-2);
 }
 .slider-area.slider-two .slider-content .slider-btn li .active.primary-btn, .slider-area.slider-two .slider-content .slider-btn li .primary-btn:hover, .slider-area.slider-two .slider-content .slider-btn li .primary-btn:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-  box-shadow: var(--shadow-4);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-4);
 }
 .slider-area.slider-two .slider-content .slider-btn li .deactive.primary-btn {
-  background: var(--gray-4);
-  color: var(--dark-3);
+  background: var(--bs-gray-4);
+  color: var(--bs-dark-3);
   pointer-events: none;
 }
 
 .slider-area.slider-two .slider-content .slider-btn li .primary-btn-outline {
-  border-color: var(--primary);
-  color: var(--primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 .slider-area.slider-two .slider-content .slider-btn li .active.primary-btn-outline, .slider-area.slider-two .slider-content .slider-btn li .primary-btn-outline:hover, .slider-area.slider-two .slider-content .slider-btn li .primary-btn-outline:focus {
-  background: var(--primary-dark);
-  color: var(--white);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
 }
 .slider-area.slider-two .slider-content .slider-btn li .deactive.primary-btn-outline {
-  color: var(--dark-3);
-  border-color: var(--gray-4);
+  color: var(--bs-dark-3);
+  border-color: var(--bs-gray-4);
   pointer-events: none;
 }
 
 /*===== SLIDER TWO =====*/
 .slider-area.slider-two {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
   position: relative;
 }
 .slider-area.slider-two .slider-content {
@@ -50,7 +50,7 @@
 .slider-area.slider-two .slider-content .slider-title {
   font-size: 44px;
   line-height: 55px;
-  color: var(--black);
+  color: var(--bs-black);
   padding: 0 5px;
 }
 @media (max-width: 767px) {
@@ -60,7 +60,7 @@
   }
 }
 .slider-area.slider-two .slider-content .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   margin-top: 16px;
 }
 .slider-area.slider-two .slider-content .slider-btn {
@@ -109,7 +109,7 @@
   width: auto;
   height: auto;
   font-size: 32px;
-  color: var(--white);
+  color: var(--bs-white);
   bottom: auto;
   left: 8px;
   right: auto;
@@ -153,7 +153,7 @@
   margin: 5px 0;
 }
 .slider-area.slider-two .carousel .carousel-indicators li.active {
-  background-color: var(--white);
+  background-color: var(--bs-white);
   height: 16px;
   border-radius: 5px;
 }

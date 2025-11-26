@@ -6,7 +6,7 @@
 
 .slider-area {
   &.slider-two {
-    background-color: var(--light-2);
+    background-color: var(--bs-light-2);
     position: relative;
 
     & .slider-content {
@@ -24,7 +24,7 @@
       & .slider-title {
         font-size: 44px;
         line-height: 55px;
-        color: var(--black);
+        color: var(--bs-black);
         padding: 0 5px;
 
         @media #{$xs} {
@@ -34,7 +34,7 @@
       }
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
         margin-top: 16px;
       }
 
@@ -95,7 +95,7 @@
         width: auto;
         height: auto;
         font-size: 32px;
-        color: var(--white);
+        color: var(--bs-white);
         bottom: auto;
         left: 8px;
         right: auto;
@@ -135,7 +135,7 @@
           margin: 5px 0;
 
           &.active {
-            background-color: var(--white);
+            background-color: var(--bs-white);
             height: 16px;
             border-radius: 5px;
           }

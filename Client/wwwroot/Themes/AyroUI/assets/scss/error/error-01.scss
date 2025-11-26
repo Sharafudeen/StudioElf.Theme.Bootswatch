@@ -11,19 +11,19 @@
   & .error-404 {
     font-size: 98px;
     font-weight: 600;
-    color: var(--black);
+    color: var(--bs-black);
     line-height: 90px;
   }
   & .sub-title {
     font-size: 24px;
     font-weight: 700;
-    color: var(--black);
+    color: var(--bs-black);
     margin-top: 16px;
   }
   & .text {
     font-size: 16px;
     line-height: 24px;
-    color: var(--dark-3);
+    color: var(--bs-dark-3);
     margin-top: 8px;
   }
   & .error-form {
@@ -38,7 +38,7 @@
       top: 12px;
       left: 20px;
       font-size: 24px;
-      color: var(--primary);
+      color: var(--bs-primary);
     }
 
     & input {
@@ -47,13 +47,13 @@
       padding-left: 60px;
       padding-right: 30px;
       border-radius: 50px;
-      border: 2px solid var(--gray-4);
+      border: 2px solid var(--bs-gray-4);
       font-size: 16px;
       font-weight: 600;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
 
       &:focus {
-        border-color: var(--primary);
+        border-color: var(--bs-primary);
       }
     }
   }

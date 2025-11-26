@@ -9,7 +9,7 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 45px;
-  color: var(--black);
+  color: var(--bs-black);
   margin-bottom: 20px;
 
   @media #{$xs} {
@@ -20,10 +20,10 @@
 
 /* tabs-one */
 .tabs-one {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
 
   & .nav {
-    border-bottom: 1px solid var(--gray-4);
+    border-bottom: 1px solid var(--bs-gray-4);
 
     @media #{$xs} {
       display: block;
@@ -36,15 +36,15 @@
       & a {
         font-size: 16px;
         line-height: 24px;
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
         font-weight: 700;
         padding: 13px;
         @include transition(0.3s);
         display: block;
 
         &.active {
-          color: var(--white);
-          background: var(--primary);
+          color: var(--bs-white);
+          background: var(--bs-primary);
         }
       }
     }
@@ -55,7 +55,7 @@
       padding: 15px;
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
       }
     }
   }
@@ -63,7 +63,7 @@
 
 /* tabs-two */
 .tabs-two {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
 
   & .nav {
     @media #{$xs} {
@@ -77,29 +77,29 @@
       & a {
         font-size: 16px;
         line-height: 24px;
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
         font-weight: 700;
         padding: 13px;
         @include transition(0.3s);
         display: block;
-        border-bottom: 1px solid var(--gray-4);
+        border-bottom: 1px solid var(--bs-gray-4);
         position: relative;
 
         &.active {
-          color: var(--primary);
-          background: var(--primary-light);
-          border: 1px solid var(--gray-4);
+          color: var(--bs-primary);
+          background: var(--bs-primary-light);
+          border: 1px solid var(--bs-gray-4);
           border-bottom: 0;
           border-top: 0;
 
           @media #{$xs} {
-            border: 1px solid var(--gray-4);
+            border: 1px solid var(--bs-gray-4);
             border-top: 0;
             border-left: 0;
             border-right: 0;
           }
           @media #{$sm} {
-            border: 1px solid var(--gray-4);
+            border: 1px solid var(--bs-gray-4);
             border-bottom: 0;
             border-top: 0;
           }
@@ -111,7 +111,7 @@
             width: 100%;
             height: 4px;
             left: 0;
-            background: var(--primary);
+            background: var(--bs-primary);
           }
         }
       }
@@ -139,7 +139,7 @@
       padding: 15px;
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
       }
     }
   }
@@ -159,7 +159,7 @@
       & a {
         font-size: 16px;
         line-height: 24px;
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
         font-weight: 700;
         padding: 13px;
         @include transition(0.3s);
@@ -174,7 +174,7 @@
         &::before {
           position: absolute;
           content: "";
-          background-color: var(--gray-4);
+          background-color: var(--bs-gray-4);
           width: 100%;
           height: 4px;
           left: 0;
@@ -182,11 +182,11 @@
         }
 
         &.active {
-          color: var(--primary);
-          background: var(--primary-light);
+          color: var(--bs-primary);
+          background: var(--bs-primary-light);
 
           &::before {
-            background: var(--primary);
+            background: var(--bs-primary);
           }
         }
       }
@@ -198,7 +198,7 @@
       padding: 15px;
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
       }
     }
   }
@@ -218,7 +218,7 @@
       & a {
         font-size: 16px;
         line-height: 24px;
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
         font-weight: 700;
         padding: 13px;
         @include transition(0.3s);
@@ -240,7 +240,7 @@
         &::before {
           position: absolute;
           content: "";
-          background-color: var(--gray-4);
+          background-color: var(--bs-gray-4);
           width: 100%;
           height: 4px;
           left: 0;
@@ -248,11 +248,11 @@
         }
 
         &.active {
-          color: var(--white);
-          background: var(--primary);
+          color: var(--bs-white);
+          background: var(--bs-primary);
 
           &::before {
-            background: var(--primary);
+            background: var(--bs-primary);
           }
         }
       }
@@ -264,7 +264,7 @@
       padding: 15px;
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
       }
     }
   }
@@ -272,7 +272,7 @@
 
 /* tabs-five */
 .tabs-five {
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--bs-shadow-4);
   border-radius: 4px;
 
   & .nav {
@@ -281,7 +281,7 @@
     & a {
       font-size: 16px;
       line-height: 24px;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
       font-weight: 700;
       padding: 13px;
       @include transition(0.3s);
@@ -296,8 +296,8 @@
       }
 
       &.active {
-        color: var(--white);
-        background: var(--primary);
+        color: var(--bs-white);
+        background: var(--bs-primary);
       }
     }
   }
@@ -307,7 +307,7 @@
       padding: 15px;
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
       }
     }
   }
@@ -315,7 +315,7 @@
 
 /* tabs-six */
 .tabs-six {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
 
   & .nav {
     height: 100%;
@@ -326,7 +326,7 @@
       content: "";
       width: 4px;
       height: 100%;
-      background-color: var(--gray-4);
+      background-color: var(--bs-gray-4);
       top: 0;
       right: 0;
     }
@@ -334,7 +334,7 @@
     & a {
       font-size: 16px;
       line-height: 24px;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
       font-weight: 700;
       padding: 13px;
       @include transition(0.3s);
@@ -348,15 +348,15 @@
       }
 
       &.active {
-        color: var(--primary);
-        background: var(--primary-light);
+        color: var(--bs-primary);
+        background: var(--bs-primary-light);
 
         &::before {
           position: absolute;
           content: "";
           width: 4px;
           height: 100%;
-          background: var(--primary);
+          background: var(--bs-primary);
           top: 0;
           right: 0;
         }
@@ -369,7 +369,7 @@
       padding: 15px;
 
       & .text {
-        color: var(--dark-3);
+        color: var(--bs-dark-3);
       }
     }
   }

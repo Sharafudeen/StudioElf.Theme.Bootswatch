@@ -24,8 +24,8 @@
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
-  color: var(--primary);
-  border: 2px solid var(--primary);
+  color: var(--bs-primary);
+  border: 2px solid var(--bs-primary);
   border-radius: 30px;
   padding: 8px 30px;
 }
@@ -45,7 +45,7 @@
   }
 }
 .section-title-five p {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /*# sourceMappingURL=section-title-05.css.map */

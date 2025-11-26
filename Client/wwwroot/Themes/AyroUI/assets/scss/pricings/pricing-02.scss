@@ -9,13 +9,13 @@
 }
 
 .pricing-style-two {
-  box-shadow: var(--shadow-3);
+  box-shadow: var(--bs-shadow-3);
   padding: 30px 30px 40px 30px;
   border-radius: 8px;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   margin-top: 50px;
 
   @media #{$md,$xs} {
@@ -23,7 +23,7 @@
   }
 
   & .sub-title {
-    color: var(--black);
+    color: var(--bs-black);
     position: relative;
     padding-bottom: 8px;
 
@@ -34,7 +34,7 @@
       height: 4px;
       bottom: 0;
       left: 0;
-      background-color: var(--primary);
+      background-color: var(--bs-primary);
       margin: 0 auto;
     }
   }
@@ -45,7 +45,7 @@
     font-weight: 600;
     line-height: 80px;
     margin-top: 20px;
-    color: var(--black);
+    color: var(--bs-black);
 
     @media #{$xs} {
       font-size: 45px;
@@ -59,7 +59,7 @@
   }
 
   & .year {
-    color: var(--primary);
+    color: var(--bs-primary);
     margin-top: 3px;
   }
 
@@ -74,11 +74,11 @@
     margin-top: 40px;
 
     & li {
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
       margin-top: 16px;
 
       & i {
-        color: var(--primary);
+        color: var(--bs-primary);
         margin-right: 8px;
       }
     }

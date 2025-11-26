@@ -13,7 +13,7 @@
 /* accordion-style-one */
 .accordion-style-one .accordion .card {
   margin-top: 8px;
-  border: 1px solid var(--gray-4) !important;
+  border: 1px solid var(--bs-gray-4) !important;
   border-radius: 4px;
 }
 .accordion-style-one .accordion .card .card-header {
@@ -26,13 +26,13 @@
   font-weight: 700;
   line-height: 24px;
   position: relative;
-  color: var(--primary);
+  color: var(--bs-primary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--bs-primary);
   margin: -1px;
   border-radius: 4px;
   padding: 13px 16px;
@@ -57,8 +57,8 @@
   transform: rotate(180deg);
 }
 .accordion-style-one .accordion .card .card-header a.collapsed {
-  color: var(--black);
-  border-color: var(--gray-4);
+  color: var(--bs-black);
+  border-color: var(--bs-gray-4);
 }
 .accordion-style-one .accordion .card .card-header a.collapsed::before {
   -webkit-transform: rotate(0);
@@ -71,13 +71,13 @@
   padding: 16px;
 }
 .accordion-style-one .accordion .card .card-body .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* accordion-style-two */
 .accordion-style-two .accordion .card {
   margin-top: 8px;
-  border: 1px solid var(--gray-4) !important;
+  border: 1px solid var(--bs-gray-4) !important;
   border-radius: 4px;
 }
 .accordion-style-two .accordion .card .card-header {
@@ -90,18 +90,18 @@
   font-weight: 700;
   line-height: 24px;
   position: relative;
-  color: var(--white);
+  color: var(--bs-white);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--bs-primary);
   margin: -1px;
   border-radius: 4px;
   padding: 13px 16px;
   z-index: 5;
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
 }
 .accordion-style-two .accordion .card .card-header a::before {
   position: absolute;
@@ -122,8 +122,8 @@
   transform: rotate(180deg);
 }
 .accordion-style-two .accordion .card .card-header a.collapsed {
-  color: var(--black);
-  border-color: var(--gray-4);
+  color: var(--bs-black);
+  border-color: var(--bs-gray-4);
   background-color: transparent;
 }
 .accordion-style-two .accordion .card .card-header a.collapsed::before {
@@ -137,7 +137,7 @@
   padding: 16px;
 }
 .accordion-style-two .accordion .card .card-body .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* accordion-style-three */
@@ -156,19 +156,19 @@
   font-weight: 700;
   line-height: 24px;
   position: relative;
-  color: var(--white);
+  color: var(--bs-white);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--bs-primary);
   border-radius: 0;
   padding: 13px 16px;
   z-index: 5;
   border-left: 0;
   border-right: 0;
-  background: var(--primary);
+  background: var(--bs-primary);
   margin-top: -2px;
 }
 .accordion-style-three .accordion .card .card-header a::before {
@@ -190,8 +190,8 @@
   transform: rotate(180deg);
 }
 .accordion-style-three .accordion .card .card-header a.collapsed {
-  color: var(--black);
-  border: 2px solid var(--light-1);
+  color: var(--bs-black);
+  border: 2px solid var(--bs-light-1);
   background: transparent;
   border-left: 0;
   border-right: 0;
@@ -207,7 +207,7 @@
   padding: 16px;
 }
 .accordion-style-three .accordion .card .card-body .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* accordion-style-four */
@@ -226,7 +226,7 @@
   font-weight: 700;
   line-height: 24px;
   position: relative;
-  color: var(--white);
+  color: var(--bs-white);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -237,7 +237,7 @@
   padding: 13px 16px;
   z-index: 5;
   border: 0;
-  background: var(--primary);
+  background: var(--bs-primary);
 }
 .accordion-style-four .accordion .card .card-header a::before {
   position: absolute;
@@ -258,9 +258,9 @@
   transform: rotate(180deg);
 }
 .accordion-style-four .accordion .card .card-header a.collapsed {
-  color: var(--black);
-  border-color: var(--gray-4);
-  background: var(--light-2);
+  color: var(--bs-black);
+  border-color: var(--bs-gray-4);
+  background: var(--bs-light-2);
 }
 .accordion-style-four .accordion .card .card-header a.collapsed::before {
   -webkit-transform: rotate(0);
@@ -273,7 +273,7 @@
   padding: 16px;
 }
 .accordion-style-four .accordion .card .card-body .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /*# sourceMappingURL=accordions.css.map */

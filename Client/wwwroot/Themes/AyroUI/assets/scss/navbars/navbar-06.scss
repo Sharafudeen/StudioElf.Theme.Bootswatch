@@ -16,7 +16,7 @@
 /*===== NAVBAR SIX =====*/
 
 .navbar-six {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
 
   @media #{$md, $xs} {
     padding: 10px 0;
@@ -31,7 +31,7 @@
     & .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: var(--black);
+      background-color: var(--bs-black);
       margin: 5px 0;
       display: block;
       position: relative;
@@ -63,7 +63,7 @@
       top: 116%;
       left: 0;
       width: 100%;
-      background-color: var(--light-2);
+      background-color: var(--bs-light-2);
       z-index: 8;
       padding: 10px 16px;
     }
@@ -83,7 +83,7 @@
         display: flex;
         align-items: center;
         padding: 10px 16px;
-        color: var(--black);
+        color: var(--bs-black);
         text-transform: capitalize;
         position: relative;
         border-radius: 5px;
@@ -100,15 +100,15 @@
 
           &.active {
             i {
-              color: var(--white);
+              color: var(--bs-white);
             }
           }
         }
 
         &.active {
           opacity: 1;
-          background-color: var(--primary);
-          color: var(--white);
+          background-color: var(--bs-primary);
+          color: var(--bs-white);
 
           @media #{$md, $xs} {
             border: 0;
@@ -127,8 +127,8 @@
 
       &:hover {
         & > a {
-          background-color: var(--primary);
-          color: var(--white);
+          background-color: var(--bs-primary);
+          color: var(--bs-white);
 
           @media #{$md, $xs} {
             border: 0;
@@ -146,7 +146,7 @@
           font-size: 16px;
           background: none;
           border: 0;
-          color: var(--black);
+          color: var(--bs-black);
         }
       }
 
@@ -155,7 +155,7 @@
         left: 0;
         top: 100%;
         width: 260px;
-        background-color: var(--white);
+        background-color: var(--bs-white);
         border-radius: 5px;
         opacity: 0;
         visibility: hidden;
@@ -205,7 +205,7 @@
           }
 
           & .sub-nav-toggler {
-            color: var(--black);
+            color: var(--bs-black);
             @include transition(0.3s);
           }
 
@@ -215,7 +215,7 @@
             justify-content: space-between;
             padding: 8px 24px;
             position: relative;
-            color: var(--black);
+            color: var(--bs-black);
             @include transition(0.3s);
             border-radius: 0;
             margin: 0 0;
@@ -224,7 +224,7 @@
             border-radius: 5px;
 
             & .sub-nav-toggler {
-              color: var(--black);
+              color: var(--bs-black);
             }
 
             & i {
@@ -237,10 +237,10 @@
             }
 
             &.active {
-              color: var(--white);
+              color: var(--bs-white);
 
               i {
-                color: var(--white);
+                color: var(--bs-white);
               }
             }
 
@@ -288,12 +288,12 @@
             }
 
             & .sub-nav-toggler {
-              color: var(--white);
+              color: var(--bs-white);
             }
 
             & > a {
-              background: var(--primary);
-              color: var(--white);
+              background: var(--bs-primary);
+              color: var(--bs-white);
 
               &::before {
                 opacity: 1;

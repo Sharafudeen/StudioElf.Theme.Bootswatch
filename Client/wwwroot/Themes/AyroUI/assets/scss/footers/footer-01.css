@@ -1,6 +1,6 @@
 /*===== FOOTER ONE =====*/
 .footer-one {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
 }
 .footer-one .footer-logo {
   margin-top: 30px;
@@ -25,7 +25,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
-  color: var(--black);
+  color: var(--bs-black);
   position: relative;
 }
 .footer-one .footer-app-store {
@@ -36,7 +36,7 @@
   display: block;
   margin-bottom: 15px;
   font-weight: 500;
-  color: var(--dark-1);
+  color: var(--bs-dark-1);
 }
 .footer-one .footer-app-store li {
   display: inline-block;
@@ -76,7 +76,7 @@
   transition: all 0.2s ease-out 0s;
 }
 .footer-one .footer-app-store li a:hover {
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--bs-shadow-4);
   -webkit-transform: translateY(-4px);
   -moz-transform: translateY(-4px);
   -ms-transform: translateY(-4px);
@@ -103,7 +103,7 @@
 .footer-one .footer-link ul a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   margin-top: 16px;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -118,7 +118,7 @@
   }
 }
 .footer-one .footer-link ul a:hover {
-  color: var(--primary);
+  color: var(--bs-primary);
 }
 .footer-one .footer-contact {
   margin-top: 30px;
@@ -131,7 +131,7 @@
   margin-top: 15px;
   position: relative;
   padding-left: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .footer-one .footer-contact ul li:first-child {
   margin: 0;
@@ -143,14 +143,14 @@
   top: 4px;
 }
 .footer-one .footer-copyright {
-  border-top: 1px solid var(--gray-4);
+  border-top: 1px solid var(--bs-gray-4);
 }
 .footer-one .copyright {
   padding-bottom: 23px;
   padding-top: 13px;
 }
 .footer-one .copyright .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   margin-top: 10px;
 }
 .footer-one .social {
@@ -165,7 +165,7 @@
 }
 .footer-one .social li a {
   font-size: 18px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -173,7 +173,7 @@
   transition: all 0.3s ease-out 0s;
 }
 .footer-one .social li a:hover {
-  color: var(--primary);
+  color: var(--bs-primary);
 }
 
 /*# sourceMappingURL=footer-01.css.map */

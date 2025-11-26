@@ -11,7 +11,7 @@
 
 /*===== NAVBAR NINE =====*/
 .navbar-area.navbar-nine {
-  background: var(--primary);
+  background: var(--bs-primary);
   padding: 10px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -29,7 +29,7 @@
 .navbar-area.navbar-nine .navbar .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   margin: 5px 0;
   display: block;
   position: relative;
@@ -64,7 +64,7 @@
     top: 116%;
     left: 0;
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--bs-primary);
     z-index: 8;
     padding: 10px 16px;
   }
@@ -86,7 +86,7 @@
   display: flex;
   align-items: center;
   padding: 11px 16px;
-  color: var(--white);
+  color: var(--bs-white);
   text-transform: capitalize;
   position: relative;
   border-radius: 5px;
@@ -134,7 +134,7 @@
   left: 0;
   top: 130%;
   width: 230px;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   border-radius: 5px;
   opacity: 0;
   visibility: hidden;
@@ -191,7 +191,7 @@
   position: relative;
 }
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li .sub-nav-toggler {
-  color: var(--black);
+  color: var(--bs-black);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -204,7 +204,7 @@
   justify-content: space-between;
   padding: 8px 16px;
   position: relative;
-  color: var(--dark-2);
+  color: var(--bs-dark-2);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -266,23 +266,23 @@
   visibility: visible;
 }
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover .sub-nav-toggler {
-  color: var(--white);
+  color: var(--bs-white);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover .sub-nav-toggler {
-    color: var(--primary);
+    color: var(--bs-primary);
   }
 }
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover > a {
-  color: var(--primary);
+  color: var(--bs-primary);
   padding-left: 22px;
 }
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover > a i {
-  color: var(--primary);
+  color: var(--bs-primary);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover > a {
-    color: var(--primary);
+    color: var(--bs-primary);
   }
 }
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover > a::after {
@@ -306,7 +306,7 @@
     font-size: 16px;
     background: none;
     border: 0;
-    color: var(--white);
+    color: var(--bs-white);
   }
 }
 .navbar-area.navbar-nine .navbar .navbar-btn {
@@ -330,7 +330,7 @@
   font-size: 22px;
   position: relative;
   overflow: hidden;
-  color: var(--white);
+  color: var(--bs-white);
   height: 40px;
   width: 40px;
   line-height: 40px;
@@ -345,8 +345,8 @@
 }
 .navbar-area.navbar-nine .navbar .navbar-btn .menu-bar:hover {
   border-color: transparent;
-  color: var(--primary);
-  background-color: var(--white);
+  color: var(--bs-primary);
+  background-color: var(--bs-white);
 }
 
 /*===== SIDEBAR ONE =====*/
@@ -354,7 +354,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   height: 100%;
   width: 350px;
   padding-top: 80px;
@@ -386,7 +386,7 @@
 }
 .sidebar-left .sidebar-close .close {
   font-size: 18px;
-  color: var(--black);
+  color: var(--bs-black);
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
   -ms-transition: all 0.2s ease-out 0s;
@@ -418,7 +418,7 @@
   line-height: 24px;
   font-weight: 500;
   padding: 8px 0;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   text-transform: capitalize;
   position: relative;
   border-radius: 5px;
@@ -430,7 +430,7 @@
   display: block;
 }
 .sidebar-left .sidebar-content .sidebar-menu ul li a:hover {
-  color: var(--primary);
+  color: var(--bs-primary);
   padding-left: 5px;
 }
 .sidebar-left .sidebar-content .text {
@@ -467,8 +467,8 @@
   transition: all 0.3s ease-out 0s;
 }
 .sidebar-left .sidebar-content .sidebar-social ul li a:hover {
-  color: var(--white);
-  background-color: var(--primary);
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
   border-color: transparent;
 }
 

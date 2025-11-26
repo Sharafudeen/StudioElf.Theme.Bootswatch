@@ -9,7 +9,7 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 
   @media #{$xs} {
     font-size: 20px;
@@ -24,12 +24,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & span {
           font-size: 16px;
           font-weight: 600;
-          color: var(--black);
+          color: var(--bs-black);
           line-height: 25px;
           margin-right: 13px;
         }
@@ -43,12 +43,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--primary);
+          color: var(--bs-primary);
           line-height: 25px;
           margin-right: 7px;
         }
@@ -62,12 +62,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--info);
+          color: var(--bs-info);
           line-height: 25px;
           margin-right: 6px;
         }
@@ -81,12 +81,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--caution);
+          color: var(--bs-caution);
           line-height: 25px;
           margin-right: 6px;
         }
@@ -100,12 +100,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--success);
+          color: var(--bs-success);
           line-height: 25px;
           margin-right: 7px;
         }
@@ -119,12 +119,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--error);
+          color: var(--bs-error);
           line-height: 25px;
           margin-right: 7px;
         }
@@ -138,12 +138,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--success);
+          color: var(--bs-success);
           line-height: 25px;
           margin-right: 7px;
         }
@@ -157,12 +157,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--info);
+          color: var(--bs-info);
           line-height: 25px;
           margin-right: 7px;
         }
@@ -176,12 +176,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--primary);
+          color: var(--bs-primary);
           line-height: 25px;
           margin-right: 7px;
         }
@@ -195,12 +195,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--primary);
+          color: var(--bs-primary);
           line-height: 25px;
           margin-right: 6px;
         }
@@ -214,12 +214,12 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & i {
           font-size: 16px;
           font-weight: 600;
-          color: var(--primary);
+          color: var(--bs-primary);
           line-height: 25px;
           margin-right: 6px;
         }
@@ -233,14 +233,14 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: 13px;
-        color: var(--black);
+        color: var(--bs-black);
 
         & span {
           width: 12px;
           height: 12px;
           display: inline-block;
           border-radius: 50%;
-          background-color: var(--black);
+          background-color: var(--bs-black);
           margin-right: 6px;
         }
       }

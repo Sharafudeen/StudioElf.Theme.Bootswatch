@@ -5,7 +5,7 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 45px;
-  color: var(--black);
+  color: var(--bs-black);
   margin-bottom: 20px;
 }
 @media (max-width: 767px) {
@@ -17,10 +17,10 @@
 
 /* tabs-one */
 .tabs-one {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
 }
 .tabs-one .nav {
-  border-bottom: 1px solid var(--gray-4);
+  border-bottom: 1px solid var(--bs-gray-4);
 }
 @media (max-width: 767px) {
   .tabs-one .nav {
@@ -35,7 +35,7 @@
 .tabs-one .nav .nav-item a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   font-weight: 700;
   padding: 13px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -46,19 +46,19 @@
   display: block;
 }
 .tabs-one .nav .nav-item a.active {
-  color: var(--white);
-  background: var(--primary);
+  color: var(--bs-white);
+  background: var(--bs-primary);
 }
 .tabs-one .tab-content .tab-text {
   padding: 15px;
 }
 .tabs-one .tab-content .tab-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* tabs-two */
 .tabs-two {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
 }
 @media (max-width: 767px) {
   .tabs-two .nav {
@@ -73,7 +73,7 @@
 .tabs-two .nav .nav-item a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   font-weight: 700;
   padding: 13px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -82,19 +82,19 @@
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   display: block;
-  border-bottom: 1px solid var(--gray-4);
+  border-bottom: 1px solid var(--bs-gray-4);
   position: relative;
 }
 .tabs-two .nav .nav-item a.active {
-  color: var(--primary);
-  background: var(--primary-light);
-  border: 1px solid var(--gray-4);
+  color: var(--bs-primary);
+  background: var(--bs-primary-light);
+  border: 1px solid var(--bs-gray-4);
   border-bottom: 0;
   border-top: 0;
 }
 @media (max-width: 767px) {
   .tabs-two .nav .nav-item a.active {
-    border: 1px solid var(--gray-4);
+    border: 1px solid var(--bs-gray-4);
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -102,7 +102,7 @@
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .tabs-two .nav .nav-item a.active {
-    border: 1px solid var(--gray-4);
+    border: 1px solid var(--bs-gray-4);
     border-bottom: 0;
     border-top: 0;
   }
@@ -114,7 +114,7 @@
   width: 100%;
   height: 4px;
   left: 0;
-  background: var(--primary);
+  background: var(--bs-primary);
 }
 .tabs-two .nav .nav-item:first-child a.active {
   border-left: 0;
@@ -126,7 +126,7 @@
   padding: 15px;
 }
 .tabs-two .tab-content .tab-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* tabs-three */
@@ -143,7 +143,7 @@
 .tabs-three .nav .nav-item a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   font-weight: 700;
   padding: 13px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -161,24 +161,24 @@
 .tabs-three .nav .nav-item a::before {
   position: absolute;
   content: "";
-  background-color: var(--gray-4);
+  background-color: var(--bs-gray-4);
   width: 100%;
   height: 4px;
   left: 0;
   bottom: 0;
 }
 .tabs-three .nav .nav-item a.active {
-  color: var(--primary);
-  background: var(--primary-light);
+  color: var(--bs-primary);
+  background: var(--bs-primary-light);
 }
 .tabs-three .nav .nav-item a.active::before {
-  background: var(--primary);
+  background: var(--bs-primary);
 }
 .tabs-three .tab-content .tab-text {
   padding: 15px;
 }
 .tabs-three .tab-content .tab-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* tabs-four */
@@ -195,7 +195,7 @@
 .tabs-four .nav .nav-item a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   font-weight: 700;
   padding: 13px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -223,29 +223,29 @@
 .tabs-four .nav .nav-item a::before {
   position: absolute;
   content: "";
-  background-color: var(--gray-4);
+  background-color: var(--bs-gray-4);
   width: 100%;
   height: 4px;
   left: 0;
   bottom: 0;
 }
 .tabs-four .nav .nav-item a.active {
-  color: var(--white);
-  background: var(--primary);
+  color: var(--bs-white);
+  background: var(--bs-primary);
 }
 .tabs-four .nav .nav-item a.active::before {
-  background: var(--primary);
+  background: var(--bs-primary);
 }
 .tabs-four .tab-content .tab-text {
   padding: 15px;
 }
 .tabs-four .tab-content .tab-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* tabs-five */
 .tabs-five {
-  box-shadow: var(--shadow-4);
+  box-shadow: var(--bs-shadow-4);
   border-radius: 4px;
 }
 .tabs-five .nav {
@@ -254,7 +254,7 @@
 .tabs-five .nav a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   font-weight: 700;
   padding: 13px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -272,19 +272,19 @@
   font-size: 18px;
 }
 .tabs-five .nav a.active {
-  color: var(--white);
-  background: var(--primary);
+  color: var(--bs-white);
+  background: var(--bs-primary);
 }
 .tabs-five .tab-content .tab-text {
   padding: 15px;
 }
 .tabs-five .tab-content .tab-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /* tabs-six */
 .tabs-six {
-  border: 1px solid var(--gray-4);
+  border: 1px solid var(--bs-gray-4);
 }
 .tabs-six .nav {
   height: 100%;
@@ -295,14 +295,14 @@
   content: "";
   width: 4px;
   height: 100%;
-  background-color: var(--gray-4);
+  background-color: var(--bs-gray-4);
   top: 0;
   right: 0;
 }
 .tabs-six .nav a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   font-weight: 700;
   padding: 13px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -319,15 +319,15 @@
   font-size: 18px;
 }
 .tabs-six .nav a.active {
-  color: var(--primary);
-  background: var(--primary-light);
+  color: var(--bs-primary);
+  background: var(--bs-primary-light);
 }
 .tabs-six .nav a.active::before {
   position: absolute;
   content: "";
   width: 4px;
   height: 100%;
-  background: var(--primary);
+  background: var(--bs-primary);
   top: 0;
   right: 0;
 }
@@ -335,7 +335,7 @@
   padding: 15px;
 }
 .tabs-six .tab-content .tab-text .text {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /*# sourceMappingURL=tabs.css.map */

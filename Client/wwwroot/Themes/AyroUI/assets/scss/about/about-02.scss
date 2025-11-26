@@ -5,7 +5,7 @@
 ===========================*/
 
 .about-two {
-  background-color: var(--light-2);
+  background-color: var(--bs-light-2);
   padding-top: 120px;
   padding-bottom: 120px;
 
@@ -22,7 +22,7 @@
     }
 
     p {
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
     }
   }
 }
@@ -50,7 +50,7 @@
     }
 
     & .text {
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
     }
   }
 }

@@ -23,8 +23,8 @@
 }
 .client-logo-two .section-title-two span {
   text-transform: capitalize;
-  color: var(--white);
-  background: var(--primary);
+  color: var(--bs-white);
+  background: var(--bs-primary);
   display: inline-block;
   margin-bottom: 10px;
   padding: 5px 15px;
@@ -46,7 +46,7 @@
   }
 }
 .client-logo-two .section-title-two p {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .client-logo-two .single-client {
   margin-top: 30px;

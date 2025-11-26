@@ -8,7 +8,7 @@
   position: relative;
 
   & .header-content-area {
-    background-color: var(--primary);
+    background-color: var(--bs-primary);
     position: relative;
     padding: 130px 0;
 
@@ -31,14 +31,14 @@
 
     .primary-btn-outline {
       @extend %primary-btn-outline;
-      border-color: var(--white);
-      background-color: var(--white);
-      color: var(--primary);
+      border-color: var(--bs-white);
+      background-color: var(--bs-white);
+      color: var(--bs-primary);
 
       &:hover {
         background-color: transparent;
-        border-color: var(--white);
-        color: var(--white);
+        border-color: var(--bs-white);
+        color: var(--bs-white);
       }
     }
   }
@@ -54,12 +54,12 @@
   }
 
   & .header-title {
-    color: var(--white);
+    color: var(--bs-white);
     font-weight: 800;
   }
 
   & .text-lg {
-    color: var(--white);
+    color: var(--bs-white);
     font-weight: 300;
     margin-top: 16px;
   }

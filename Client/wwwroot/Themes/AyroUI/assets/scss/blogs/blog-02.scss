@@ -6,7 +6,7 @@
 
 .blog-style-two {
   margin-top: 50px;
-  box-shadow: 0px 0px 30px var(--gray-4);
+  box-shadow: 0px 0px 30px var(--bs-gray-4);
   border-radius: 8px;
   overflow: hidden;
 
@@ -35,11 +35,11 @@
       & a {
         font-weight: 600;
         line-height: 30px;
-        color: var(--black);
+        color: var(--bs-black);
         @include transition(0.3s);
 
         &:hover {
-          color: var(--primary);
+          color: var(--bs-primary);
         }
       }
     }
@@ -47,14 +47,14 @@
     & span {
       font-size: 14px;
       line-height: 20px;
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
       margin-top: 8px;
       margin-right: 10px;
       display: inline-block;
     }
 
     & .text {
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
       margin-top: 16px;
     }
 

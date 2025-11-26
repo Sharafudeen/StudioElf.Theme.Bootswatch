@@ -6,14 +6,14 @@
 ===========================*/
 
 .single-card {
-  @include box-shadow(var(--shadow-1));
+  @include box-shadow(var(--bs-shadow-1));
   border-radius: 8px;
   overflow: hidden;
   margin-top: 30px;
   @include transition(0.3s);
 
   &:hover {
-    @include box-shadow(var(--shadow-4));
+    @include box-shadow(var(--bs-shadow-4));
   }
 
   & .card-image {
@@ -29,17 +29,17 @@
       margin-bottom: 0;
 
       & a {
-        color: var(--black);
+        color: var(--bs-black);
         @include transition(0.3s);
 
         &:hover {
-          color: var(--primary);
+          color: var(--bs-primary);
         }
       }
     }
 
     & .text {
-      color: var(--dark-3);
+      color: var(--bs-dark-3);
       margin-top: 8px;
     }
   }

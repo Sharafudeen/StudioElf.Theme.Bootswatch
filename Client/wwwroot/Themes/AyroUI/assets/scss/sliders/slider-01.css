@@ -1,37 +1,37 @@
 /* ===== Buttons Css ===== */
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn {
-  background: var(--primary);
-  color: var(--white);
-  box-shadow: var(--shadow-2);
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-2);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .active.primary-btn, .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn:hover, .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-  box-shadow: var(--shadow-4);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-4);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .deactive.primary-btn {
-  background: var(--gray-4);
-  color: var(--dark-3);
+  background: var(--bs-gray-4);
+  color: var(--bs-dark-3);
   pointer-events: none;
 }
 
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn-outline {
-  border-color: var(--primary);
-  color: var(--primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .active.primary-btn-outline, .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn-outline:hover, .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn-outline:focus {
-  background: var(--primary-dark);
-  color: var(--white);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .deactive.primary-btn-outline {
-  color: var(--dark-3);
-  border-color: var(--gray-4);
+  color: var(--bs-dark-3);
+  border-color: var(--bs-gray-4);
   pointer-events: none;
 }
 
 /*===== SLIDER ONE =====*/
 .slider-one .bd-example .carousel .carousel-inner {
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item {
   height: auto;
@@ -55,7 +55,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--primary);
+  background-color: var(--bs-primary);
   opacity: 0.8;
 }
 @media (max-width: 767px) {
@@ -77,7 +77,7 @@
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
   font-size: 44px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--bs-white);
   line-height: 55px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -93,7 +93,7 @@
   }
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .text {
-  color: var(--white);
+  color: var(--bs-white);
   display: block;
   margin: 20px 0;
 }
@@ -107,23 +107,23 @@
   }
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn {
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
   border: 1px solid transparent;
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn:hover {
   background-color: transparent;
-  border-color: var(--white);
-  color: var(--white);
+  border-color: var(--bs-white);
+  color: var(--bs-white);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn-outline {
-  border-color: var(--white);
-  color: var(--white);
+  border-color: var(--bs-white);
+  color: var(--bs-white);
 }
 .slider-one .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-btn li .primary-btn-outline:hover {
   border-color: transparent;
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
 }
 .slider-one .bd-example .carousel .carousel-control-prev, .slider-one .bd-example .carousel .carousel-control-next {
   top: 50%;
@@ -131,9 +131,9 @@
   height: 55px;
   line-height: 55px;
   text-align: center;
-  border: 1px solid var(--white);
+  border: 1px solid var(--bs-white);
   font-size: 20px;
-  color: var(--white);
+  color: var(--bs-white);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -151,8 +151,8 @@
   transition: all 0.4s ease-out 0s;
 }
 .slider-one .bd-example .carousel .carousel-control-prev:hover, .slider-one .bd-example .carousel .carousel-control-next:hover {
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
   border-color: transparent;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -211,7 +211,7 @@
 .slider-one .bd-example .carousel .carousel-indicators li {
   width: 10px;
   height: 10px;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   border-radius: 50px;
   border: 0;
   margin: 0px 5px;
@@ -223,7 +223,7 @@
 }
 .slider-one .bd-example .carousel .carousel-indicators li.active {
   width: 20px;
-  background-color: var(--white);
+  background-color: var(--bs-white);
   border-radius: 5px;
 }
 .slider-one .bd-example .carousel .carousel-indicators li:hover {

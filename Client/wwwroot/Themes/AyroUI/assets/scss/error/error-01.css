@@ -1,17 +1,17 @@
 /* ===== Buttons Css ===== */
 .error-content .primary-btn {
-  background: var(--primary);
-  color: var(--white);
-  box-shadow: var(--shadow-2);
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-2);
 }
 .error-content .active.primary-btn, .error-content .primary-btn:hover, .error-content .primary-btn:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-  box-shadow: var(--shadow-4);
+  background: var(--bs-primary-dark);
+  color: var(--bs-white);
+  box-shadow: var(--bs-shadow-4);
 }
 .error-content .deactive.primary-btn {
-  background: var(--gray-4);
-  color: var(--dark-3);
+  background: var(--bs-gray-4);
+  color: var(--bs-dark-3);
   pointer-events: none;
 }
 
@@ -23,19 +23,19 @@
 .error-content .error-404 {
   font-size: 98px;
   font-weight: 600;
-  color: var(--black);
+  color: var(--bs-black);
   line-height: 90px;
 }
 .error-content .sub-title {
   font-size: 24px;
   font-weight: 700;
-  color: var(--black);
+  color: var(--bs-black);
   margin-top: 16px;
 }
 .error-content .text {
   font-size: 16px;
   line-height: 24px;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
   margin-top: 8px;
 }
 .error-content .error-form {
@@ -50,7 +50,7 @@
   top: 12px;
   left: 20px;
   font-size: 24px;
-  color: var(--primary);
+  color: var(--bs-primary);
 }
 .error-content .error-form input {
   width: 100%;
@@ -58,13 +58,13 @@
   padding-left: 60px;
   padding-right: 30px;
   border-radius: 50px;
-  border: 2px solid var(--gray-4);
+  border: 2px solid var(--bs-gray-4);
   font-size: 16px;
   font-weight: 600;
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 .error-content .error-form input:focus {
-  border-color: var(--primary);
+  border-color: var(--bs-primary);
 }
 .error-content .error-btn {
   position: absolute;

@@ -22,7 +22,7 @@
 }
 .section-title-four span {
   text-transform: uppercase;
-  color: var(--primary);
+  color: var(--bs-primary);
   display: inline-block;
   margin-bottom: 16px;
   font-size: 14px;
@@ -58,11 +58,11 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  color: var(--gray-3);
+  color: var(--bs-gray-3);
   z-index: -1;
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: var(--gray-3);
+  -webkit-text-stroke-color: var(--bs-gray-3);
   opacity: 0.5;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -80,7 +80,7 @@
   }
 }
 .section-title-four p {
-  color: var(--dark-3);
+  color: var(--bs-dark-3);
 }
 
 /*# sourceMappingURL=section-title-04.css.map */
