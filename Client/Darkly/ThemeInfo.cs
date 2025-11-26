@@ -26,9 +26,9 @@ namespace StudioElf.Theme.Bootswatch.Darkly
                 new Stylesheet("Themes/AyroUI/assets/scss/tabs-accordions/tabs.css"),
 
                 new Script("Themes/AyroUI/assets/js/count-up.min.js"),
-                new Script("Themes/AyroUI/assets/js/glightbox.min.js"),
+                //new Script("Themes/AyroUI/assets/js/glightbox.min.js"),
                 new Script("Themes/AyroUI/assets/js/loading-bar.min.js"),
-                new Script("Themes/AyroUI/assets/js/tiny-slider.js"),
+                //new Script("Themes/AyroUI/assets/js/tiny-slider.js"),
 
                 new Stylesheet("Themes/StudioElf.Theme.Bootswatch/Theme.css"),
                 new Stylesheet($"Themes/StudioElf.Theme.Bootswatch/Darkly.css"),
