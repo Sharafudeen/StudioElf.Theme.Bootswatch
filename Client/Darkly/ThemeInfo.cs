@@ -9,14 +9,14 @@ namespace StudioElf.Theme.Bootswatch.Darkly
         public Oqtane.Models.Theme Theme => new Oqtane.Models.Theme
         {
             Name = "Bootswatch Darkly",
-            Version = "6.5.3.8",
+            Version = "10.5.3.8",
             ThemeSettingsType = "StudioElf.Theme.Bootswatch.ThemeSettings, StudioElf.Theme.Bootswatch.Oqtane",
             ContainerSettingsType = "StudioElf.Theme.Bootswatch.ContainerSettings, StudioElf.Theme.Bootswatch.Oqtane",
             PackageName = "StudioElf.Theme.Bootswatch",
             Resources = new List<Resource>()
             {
                 new Stylesheet("https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.8/darkly/bootstrap.min.css", "sha512-+uC0Ar9AG4/j/iF0Ug22TO9D17MAbD94K7J8h17EzXzN3D5kcOpYQdF4OuiLraHSibCVhz4DIcqwsDboRMVStg==", "anonymous"),
-                
+
                 new Stylesheet("Themes/AyroUI/assets/css/glightbox.min.css"),
                 new Stylesheet("Themes/AyroUI/assets/css/lineicons.css"),
                 new Stylesheet("Themes/AyroUI/assets/css/loading-bar.min.css"),

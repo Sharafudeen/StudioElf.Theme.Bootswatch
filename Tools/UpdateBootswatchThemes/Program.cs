@@ -286,6 +286,20 @@ namespace StudioElf.Theme.Bootswatch.{themeTitle}
             Resources = new List<Resource>()
             {{
                 new Stylesheet(""{cssUrl}"", ""{cssIntegrity}"", ""anonymous""),
+
+                new Stylesheet(""Themes/AyroUI/assets/css/glightbox.min.css""),
+                new Stylesheet(""Themes/AyroUI/assets/css/lineicons.css""),
+                new Stylesheet(""Themes/AyroUI/assets/css/loading-bar.min.css""),
+                new Stylesheet(""Themes/AyroUI/assets/css/tiny-slider.css""),
+
+                new Stylesheet(""Themes/AyroUI/assets/scss/starter.css""),
+                new Stylesheet(""Themes/AyroUI/assets/scss/tabs-accordions/tabs.css""),
+
+                new Script(""Themes/AyroUI/assets/js/count-up.min.js""),
+                new Script(""Themes/AyroUI/assets/js/glightbox.min.js""),
+                new Script(""Themes/AyroUI/assets/js/loading-bar.min.js""),
+                new Script(""Themes/AyroUI/assets/js/tiny-slider.js""),
+
                 new Stylesheet(""Themes/StudioElf.Theme.Bootswatch/Theme.css""),
                 new Stylesheet($""Themes/StudioElf.Theme.Bootswatch/{themeTitle}.css""),
                 new Script(""{bundleUrl}"", ""{bundleIntegrity}"", ""anonymous"")
