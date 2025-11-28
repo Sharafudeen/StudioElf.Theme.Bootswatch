@@ -80,7 +80,7 @@
   }
 }
 .testimonial-one .section-title-seven p {
-  color: var(--bs-dark-3);
+  /*color: var(--bs-dark-3);*/
 }
 .testimonial-one .testimonial-one-active {
   margin: 0;

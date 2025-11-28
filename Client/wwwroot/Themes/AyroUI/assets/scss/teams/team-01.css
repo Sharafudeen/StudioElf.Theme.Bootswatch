@@ -1,6 +1,10 @@
 /*===========================
   teams css 
 ===========================*/
+.team-area {
+    padding: 100px 0;
+}
+
 .team-style-one {
   position: relative;
   margin-top: 30px;

@@ -1,10 +1,36 @@
 /*===== FOOTER ONE =====*/
 .footer-one {
-  background-color: var(--bs-light-2);
+    background: var(--bs-primary);
+    z-index: 2;
+    position: relative;
+    /*background-color: var(--bs-light-2);*/
 }
+.footer-one::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../images/footer/saas-overlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: -1;
+}
+
 .footer-one .footer-logo {
   margin-top: 30px;
 }
+
+.footer-logo img {
+    padding: 15px;
+    height: 75px;
+    background-color: var(--bs-dark);
+    border-radius: var(--bs-border-radius) !important;
+    box-shadow: var(--bs-box-shadow) !important;
+}
+
 .footer-one .footer-widget {
   padding-top: 70px;
   padding-bottom: 100px;
@@ -25,7 +51,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
-  color: var(--bs-black);
+  color: var(--bs-light);
   position: relative;
 }
 .footer-one .footer-app-store {
@@ -36,7 +62,7 @@
   display: block;
   margin-bottom: 15px;
   font-weight: 500;
-  color: var(--bs-dark-1);
+  color: var(--bs-light-1);
 }
 .footer-one .footer-app-store li {
   display: inline-block;
@@ -88,6 +114,7 @@
 }
 .footer-one .f-about .text {
   margin-top: 20px;
+  color: var(--bs-light-3);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
   .footer-one .f-about {
@@ -103,7 +130,7 @@
 .footer-one .footer-link ul a {
   font-size: 16px;
   line-height: 24px;
-  color: var(--bs-dark-3);
+  color: var(--bs-light-3);
   margin-top: 16px;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -118,7 +145,8 @@
   }
 }
 .footer-one .footer-link ul a:hover {
-  color: var(--bs-primary);
+  /*color: var(--bs-primary);*/
+  opacity: 0.7;
 }
 .footer-one .footer-contact {
   margin-top: 30px;
@@ -131,7 +159,7 @@
   margin-top: 15px;
   position: relative;
   padding-left: 24px;
-  color: var(--bs-dark-3);
+  color: var(--bs-light-3);
 }
 .footer-one .footer-contact ul li:first-child {
   margin: 0;
@@ -150,7 +178,7 @@
   padding-top: 13px;
 }
 .footer-one .copyright .text {
-  color: var(--bs-dark-3);
+  color: var(--bs-light-3);
   margin-top: 10px;
 }
 .footer-one .social {
@@ -165,7 +193,7 @@
 }
 .footer-one .social li a {
   font-size: 18px;
-  color: var(--bs-dark-3);
+  color: var(--bs-light-3);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -173,7 +201,8 @@
   transition: all 0.3s ease-out 0s;
 }
 .footer-one .social li a:hover {
-  color: var(--bs-primary);
+  /*color: var(--bs-primary);*/
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=footer-01.css.map */

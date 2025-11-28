@@ -15,7 +15,7 @@
 }
 .video-one .video-title .text-lg {
   margin-top: 24px;
-  color: var(--bs-dark-3);
+  /*color: var(--bs-dark-3);*/
 }
 .video-one .video-content {
   position: relative;

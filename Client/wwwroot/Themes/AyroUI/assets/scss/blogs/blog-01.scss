@@ -3,8 +3,12 @@
 
 /*===== BLOG STYLE ONE =====*/
 
+.blog-area {
+    padding: 100px 0;
+}
+
 .blog-style-one {
-  margin-top: 50px;
+  margin-bottom: 50px;
 
   & .blog-image {
     overflow: hidden;
@@ -36,9 +40,9 @@
 
   & .blog-content {
     padding: 30px;
-    border: 1px solid var(--bs-light-1);
+    /*border: 1px solid var(--bs-light-1);
     border-radius: 0 0 8px 8px;
-    border-top: none;
+    border-top: none;*/
 
     @media #{$md} {
       padding: 25px;
@@ -55,7 +59,7 @@
       & a {
         font-weight: 600;
         /*color: var(--bs-black);*/
-        color: var(--bs-dark-3);
+        /*color: var(--bs-dark-3);*/
         @include transition(0.3s);
         line-height: 30px;
 
@@ -72,14 +76,14 @@
     & span {
       font-size: 14px;
       line-height: 20px;
-      color: var(--bs-dark-3);
+      /*color: var(--bs-dark-3);*/
       margin-top: 8px;
       margin-right: 12px;
       display: inline-block;
     }
 
     & .text {
-      color: var(--bs-dark-3);
+      /*color: var(--bs-dark-3);*/
       margin-top: 16px;
     }
 
@@ -95,4 +99,61 @@
       }
     }
   }
+}
+
+
+/*===========================
+  Section Title Five CSS
+===========================*/
+.section-title-five {
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 5;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-title-five {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title-five {
+        margin-bottom: 35px;
+    }
+}
+
+.section-title-five h6 {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: var(--bs-primary);
+    border: 2px solid var(--bs-primary);
+    border-radius: 30px;
+    padding: 8px 30px;
+}
+
+.section-title-five h2 {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-title-five h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title-five h2 {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+}
+
+.section-title-five p {
+    /*color: var(--bs-dark-3);*/
 }
