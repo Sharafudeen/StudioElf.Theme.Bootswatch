@@ -9,7 +9,7 @@ namespace StudioElf.Theme.Bootswatch.Flatly
         public Oqtane.Models.Theme Theme => new Oqtane.Models.Theme
         {
             Name = "Bootswatch Flatly",
-            Version = "6.5.3.8",
+            Version = "10.5.3.8",
             ThemeSettingsType = "StudioElf.Theme.Bootswatch.ThemeSettings, StudioElf.Theme.Bootswatch.Oqtane",
             ContainerSettingsType = "StudioElf.Theme.Bootswatch.ContainerSettings, StudioElf.Theme.Bootswatch.Oqtane",
             PackageName = "StudioElf.Theme.Bootswatch",

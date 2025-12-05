@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- Microsoft ResX File, format version 2.0 -->
+	<!-- To add a localized string following the ResX file format, insert this XML inside resNode:
+    <data name="ResourceKey" xml:space="preserve">
+      <value>String value here</value>
+    </data>
+    and a localized non-XML attribute in a .ResX file that matches the meta-data name and update the mimetype
+    used for the config value to be of "Microsoft.Resx" (thus the mimetype should be 
+    removed or set to text/microsoft-resx). -->
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<data name="Title.Text" xml:space="preserve">
+    <value>Display Title?</value>
+  </data>
+	<data name="Title.HelpText" xml:space="preserve">
+    <value>Specify If The Module Title Should Be Displayed</value>
+  </data>
+	<data name="Background.Text" xml:space="preserve">
+    <value>Background Color:</value>
+  </data>
+	<data name="Background.HelpText" xml:space="preserve">
+    <value>Optionally Specify A Background Color For The Container</value>
+  </data>
+	<data name="Text.Text" xml:space="preserve">
+    <value>Text Color:</value>
+  </data>
+	<data name="Text.HelpText" xml:space="preserve">
+    <value>Optionally Specify A Text Color For The Container</value>
+  </data>
+	<data name="Border.Text" xml:space="preserve">
+    <value>Border Color:</value>
+  </data>
+	<data name="Border.HelpText" xml:space="preserve">
+    <value>Optionally Specify A Border For The Container</value>
+  </data>
+</root>

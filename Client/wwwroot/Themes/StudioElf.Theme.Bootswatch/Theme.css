@@ -357,3 +357,32 @@ main {
 .collapse.show {
   margin-bottom: 3rem;
 }
+
+/* Widths when fluid */
+.ExpandingContainer_w-50 {
+    width: 50% !important;
+}
+
+.ExpandingContainer_w-60 {
+    width: 60% !important;
+}
+
+.ExpandingContainer_w-70 {
+    width: 70% !important;
+}
+
+.ExpandingContainer_w-75 {
+    width: 75% !important;
+}
+
+.ExpandingContainer_w-80 {
+    width: 80% !important;
+}
+
+.ExpandingContainer_w-90 {
+    width: 90% !important;
+}
+
+.ExpandingContainer_w-100 {
+    width: 100% !important;
+}

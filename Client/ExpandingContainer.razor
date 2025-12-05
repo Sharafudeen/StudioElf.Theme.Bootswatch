@@ -1,0 +1,31 @@
+﻿@attribute [OqtaneIgnore]
+@using Microsoft.AspNetCore.Components;
+@using Oqtane.Themes;
+@inherits ThemeControlBase
+
+<div class="@SetWidth()">
+    @ContainerContent
+</div>
+
+@code{
+    [Parameter]
+    [EditorRequired]
+    public RenderFragment ContainerContent { get; set; }
+
+    [Parameter]
+    [EditorRequired]
+    public string WidthClass { get; set; }
+
+    [Parameter]
+    [EditorRequired]
+    public bool RemoveGutter { get; set; }
+
+    private string SetWidth()
+    {
+        return WidthClass.ToLower() switch
+        {
+            "" or "-" => "container",
+            _ => "container-fluid ExpandingContainer_" + WidthClass + (RemoveGutter ? " g-0" : string.Empty),
+        };
+    }
+}
